@@ -1,0 +1,2366 @@
+[
+  {
+    "pdf_page": 19,
+    "book_page": 1,
+    "printed_page_numbers": [],
+    "verified": false,
+    "first_page_without_number": true,
+    "basis": "篇章起始页未印页码，按相邻连续页推定"
+  },
+  {
+    "pdf_page": 20,
+    "book_page": 2,
+    "printed_page_numbers": [
+      2
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 21,
+    "book_page": 3,
+    "printed_page_numbers": [
+      3
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 22,
+    "book_page": 4,
+    "printed_page_numbers": [
+      4
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 23,
+    "book_page": 5,
+    "printed_page_numbers": [
+      5
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 24,
+    "book_page": 6,
+    "printed_page_numbers": [
+      6
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 25,
+    "book_page": 7,
+    "printed_page_numbers": [
+      7
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 26,
+    "book_page": 8,
+    "printed_page_numbers": [
+      8
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 27,
+    "book_page": 9,
+    "printed_page_numbers": [
+      9
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 28,
+    "book_page": 10,
+    "printed_page_numbers": [
+      10
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 29,
+    "book_page": 11,
+    "printed_page_numbers": [
+      11
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 30,
+    "book_page": 12,
+    "printed_page_numbers": [
+      12
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 31,
+    "book_page": 13,
+    "printed_page_numbers": [
+      13
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 32,
+    "book_page": 14,
+    "printed_page_numbers": [
+      14
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 33,
+    "book_page": 15,
+    "printed_page_numbers": [
+      15
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 34,
+    "book_page": 16,
+    "printed_page_numbers": [
+      16
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 35,
+    "book_page": 17,
+    "printed_page_numbers": [
+      17
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 36,
+    "book_page": 18,
+    "printed_page_numbers": [
+      18
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 37,
+    "book_page": 19,
+    "printed_page_numbers": [
+      19
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 38,
+    "book_page": 20,
+    "printed_page_numbers": [
+      20
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 39,
+    "book_page": 21,
+    "printed_page_numbers": [
+      21
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 40,
+    "book_page": 22,
+    "printed_page_numbers": [
+      22
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 41,
+    "book_page": 23,
+    "printed_page_numbers": [
+      23
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 42,
+    "book_page": 24,
+    "printed_page_numbers": [
+      24
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 43,
+    "book_page": 25,
+    "printed_page_numbers": [
+      25
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 44,
+    "book_page": 26,
+    "printed_page_numbers": [
+      26
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 45,
+    "book_page": 27,
+    "printed_page_numbers": [
+      27
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 46,
+    "book_page": 28,
+    "printed_page_numbers": [
+      28
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 47,
+    "book_page": 29,
+    "printed_page_numbers": [
+      29
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 48,
+    "book_page": 30,
+    "printed_page_numbers": [
+      30
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 49,
+    "book_page": 31,
+    "printed_page_numbers": [
+      31
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 50,
+    "book_page": 32,
+    "printed_page_numbers": [
+      32
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 51,
+    "book_page": 33,
+    "printed_page_numbers": [
+      33
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 52,
+    "book_page": 34,
+    "printed_page_numbers": [
+      34
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 53,
+    "book_page": 35,
+    "printed_page_numbers": [
+      35
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 54,
+    "book_page": 36,
+    "printed_page_numbers": [],
+    "verified": false,
+    "first_page_without_number": false,
+    "basis": "篇章起始页未印页码，按相邻连续页推定"
+  },
+  {
+    "pdf_page": 55,
+    "book_page": 37,
+    "printed_page_numbers": [
+      37
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 56,
+    "book_page": 38,
+    "printed_page_numbers": [
+      38
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 57,
+    "book_page": 39,
+    "printed_page_numbers": [
+      39
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 58,
+    "book_page": 40,
+    "printed_page_numbers": [
+      40
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 59,
+    "book_page": 41,
+    "printed_page_numbers": [
+      41
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 60,
+    "book_page": 42,
+    "printed_page_numbers": [
+      42
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 61,
+    "book_page": 43,
+    "printed_page_numbers": [
+      43
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 62,
+    "book_page": 44,
+    "printed_page_numbers": [
+      44
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 63,
+    "book_page": 45,
+    "printed_page_numbers": [
+      45
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 64,
+    "book_page": 46,
+    "printed_page_numbers": [
+      46
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 65,
+    "book_page": 47,
+    "printed_page_numbers": [
+      47
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 66,
+    "book_page": 48,
+    "printed_page_numbers": [
+      48
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 67,
+    "book_page": 49,
+    "printed_page_numbers": [
+      49
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 68,
+    "book_page": 50,
+    "printed_page_numbers": [
+      50
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 69,
+    "book_page": 51,
+    "printed_page_numbers": [
+      51
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 70,
+    "book_page": 52,
+    "printed_page_numbers": [
+      52
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 71,
+    "book_page": 53,
+    "printed_page_numbers": [
+      53
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 72,
+    "book_page": 54,
+    "printed_page_numbers": [
+      54
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 73,
+    "book_page": 55,
+    "printed_page_numbers": [
+      55
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 74,
+    "book_page": 56,
+    "printed_page_numbers": [
+      56
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 75,
+    "book_page": 57,
+    "printed_page_numbers": [
+      57
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 76,
+    "book_page": 58,
+    "printed_page_numbers": [
+      58
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 77,
+    "book_page": 59,
+    "printed_page_numbers": [
+      59
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 78,
+    "book_page": 60,
+    "printed_page_numbers": [
+      60
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 79,
+    "book_page": 61,
+    "printed_page_numbers": [
+      61
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 80,
+    "book_page": 62,
+    "printed_page_numbers": [
+      62
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 81,
+    "book_page": 63,
+    "printed_page_numbers": [
+      63
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 82,
+    "book_page": 64,
+    "printed_page_numbers": [
+      64
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 83,
+    "book_page": 65,
+    "printed_page_numbers": [
+      65
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 84,
+    "book_page": 66,
+    "printed_page_numbers": [
+      66
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 85,
+    "book_page": 67,
+    "printed_page_numbers": [
+      67
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 86,
+    "book_page": 68,
+    "printed_page_numbers": [
+      68
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 87,
+    "book_page": 69,
+    "printed_page_numbers": [
+      69
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 88,
+    "book_page": 70,
+    "printed_page_numbers": [
+      70
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 89,
+    "book_page": 71,
+    "printed_page_numbers": [
+      71
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 90,
+    "book_page": 72,
+    "printed_page_numbers": [],
+    "verified": false,
+    "first_page_without_number": false,
+    "basis": "篇章起始页未印页码，按相邻连续页推定"
+  },
+  {
+    "pdf_page": 91,
+    "book_page": 73,
+    "printed_page_numbers": [
+      73
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 92,
+    "book_page": 74,
+    "printed_page_numbers": [
+      74
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 93,
+    "book_page": 75,
+    "printed_page_numbers": [
+      75
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 94,
+    "book_page": 76,
+    "printed_page_numbers": [
+      76
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 95,
+    "book_page": 77,
+    "printed_page_numbers": [
+      77
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 96,
+    "book_page": 78,
+    "printed_page_numbers": [
+      78
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 97,
+    "book_page": 79,
+    "printed_page_numbers": [
+      79
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 98,
+    "book_page": 80,
+    "printed_page_numbers": [
+      80
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 99,
+    "book_page": 81,
+    "printed_page_numbers": [
+      81
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 100,
+    "book_page": 82,
+    "printed_page_numbers": [
+      82
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 101,
+    "book_page": 83,
+    "printed_page_numbers": [
+      83
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 102,
+    "book_page": 84,
+    "printed_page_numbers": [
+      84
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 103,
+    "book_page": 85,
+    "printed_page_numbers": [
+      85
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 104,
+    "book_page": 86,
+    "printed_page_numbers": [
+      86
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 105,
+    "book_page": 87,
+    "printed_page_numbers": [
+      87
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 106,
+    "book_page": 88,
+    "printed_page_numbers": [
+      88
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 107,
+    "book_page": 89,
+    "printed_page_numbers": [
+      89
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 108,
+    "book_page": 90,
+    "printed_page_numbers": [
+      90
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 109,
+    "book_page": 91,
+    "printed_page_numbers": [
+      91
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 110,
+    "book_page": 92,
+    "printed_page_numbers": [
+      92
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 111,
+    "book_page": 93,
+    "printed_page_numbers": [
+      93
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 112,
+    "book_page": 94,
+    "printed_page_numbers": [
+      94
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 113,
+    "book_page": 95,
+    "printed_page_numbers": [
+      95
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 114,
+    "book_page": 96,
+    "printed_page_numbers": [
+      96
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 115,
+    "book_page": 97,
+    "printed_page_numbers": [
+      97
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 116,
+    "book_page": 98,
+    "printed_page_numbers": [
+      98
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 117,
+    "book_page": 99,
+    "printed_page_numbers": [
+      99
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 118,
+    "book_page": 100,
+    "printed_page_numbers": [
+      100
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 119,
+    "book_page": 101,
+    "printed_page_numbers": [
+      101
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 120,
+    "book_page": 102,
+    "printed_page_numbers": [
+      102
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 121,
+    "book_page": 103,
+    "printed_page_numbers": [
+      103
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 122,
+    "book_page": 104,
+    "printed_page_numbers": [
+      104
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 123,
+    "book_page": 105,
+    "printed_page_numbers": [
+      105
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 124,
+    "book_page": 106,
+    "printed_page_numbers": [
+      106
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 125,
+    "book_page": 107,
+    "printed_page_numbers": [
+      107
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 126,
+    "book_page": 108,
+    "printed_page_numbers": [
+      108
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 127,
+    "book_page": 109,
+    "printed_page_numbers": [
+      109
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 128,
+    "book_page": 110,
+    "printed_page_numbers": [
+      110
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 129,
+    "book_page": 111,
+    "printed_page_numbers": [
+      111
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 130,
+    "book_page": 112,
+    "printed_page_numbers": [
+      112
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 131,
+    "book_page": 113,
+    "printed_page_numbers": [
+      113
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 132,
+    "book_page": 114,
+    "printed_page_numbers": [
+      114
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 133,
+    "book_page": 115,
+    "printed_page_numbers": [
+      115
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 134,
+    "book_page": 116,
+    "printed_page_numbers": [
+      116
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 135,
+    "book_page": 117,
+    "printed_page_numbers": [
+      117
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 136,
+    "book_page": 118,
+    "printed_page_numbers": [
+      118
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 137,
+    "book_page": 119,
+    "printed_page_numbers": [
+      119
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 138,
+    "book_page": 120,
+    "printed_page_numbers": [
+      120
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 139,
+    "book_page": 121,
+    "printed_page_numbers": [
+      121
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 140,
+    "book_page": 122,
+    "printed_page_numbers": [],
+    "verified": false,
+    "first_page_without_number": false,
+    "basis": "篇章起始页未印页码，按相邻连续页推定"
+  },
+  {
+    "pdf_page": 141,
+    "book_page": 123,
+    "printed_page_numbers": [
+      123
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 142,
+    "book_page": 124,
+    "printed_page_numbers": [
+      124
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 143,
+    "book_page": 125,
+    "printed_page_numbers": [
+      125
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 144,
+    "book_page": 126,
+    "printed_page_numbers": [
+      126
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 145,
+    "book_page": 127,
+    "printed_page_numbers": [
+      127
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 146,
+    "book_page": 128,
+    "printed_page_numbers": [
+      128
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 147,
+    "book_page": 129,
+    "printed_page_numbers": [
+      129
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 148,
+    "book_page": 130,
+    "printed_page_numbers": [
+      130
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 149,
+    "book_page": 131,
+    "printed_page_numbers": [
+      131
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 150,
+    "book_page": 132,
+    "printed_page_numbers": [
+      132
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 151,
+    "book_page": 133,
+    "printed_page_numbers": [
+      133
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 152,
+    "book_page": 134,
+    "printed_page_numbers": [
+      134
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 153,
+    "book_page": 135,
+    "printed_page_numbers": [
+      135
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 154,
+    "book_page": 136,
+    "printed_page_numbers": [
+      136
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 155,
+    "book_page": 137,
+    "printed_page_numbers": [
+      137
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 156,
+    "book_page": 138,
+    "printed_page_numbers": [
+      138
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 157,
+    "book_page": 139,
+    "printed_page_numbers": [
+      139
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 158,
+    "book_page": 140,
+    "printed_page_numbers": [
+      140
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 159,
+    "book_page": 141,
+    "printed_page_numbers": [
+      141
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 160,
+    "book_page": 142,
+    "printed_page_numbers": [
+      142
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 161,
+    "book_page": 143,
+    "printed_page_numbers": [
+      143
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 162,
+    "book_page": 144,
+    "printed_page_numbers": [
+      144
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 163,
+    "book_page": 145,
+    "printed_page_numbers": [
+      145
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 164,
+    "book_page": 146,
+    "printed_page_numbers": [
+      146
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 165,
+    "book_page": 147,
+    "printed_page_numbers": [
+      147
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 166,
+    "book_page": 148,
+    "printed_page_numbers": [
+      148
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 167,
+    "book_page": 149,
+    "printed_page_numbers": [
+      149
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 168,
+    "book_page": 150,
+    "printed_page_numbers": [
+      150
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 169,
+    "book_page": 151,
+    "printed_page_numbers": [
+      151
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 170,
+    "book_page": 152,
+    "printed_page_numbers": [
+      152
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 171,
+    "book_page": 153,
+    "printed_page_numbers": [
+      153
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 172,
+    "book_page": 154,
+    "printed_page_numbers": [
+      154
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 173,
+    "book_page": 155,
+    "printed_page_numbers": [],
+    "verified": false,
+    "first_page_without_number": false,
+    "basis": "篇章起始页未印页码，按相邻连续页推定"
+  },
+  {
+    "pdf_page": 174,
+    "book_page": 156,
+    "printed_page_numbers": [
+      156
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 175,
+    "book_page": 157,
+    "printed_page_numbers": [
+      157
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 176,
+    "book_page": 158,
+    "printed_page_numbers": [
+      158
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 177,
+    "book_page": 159,
+    "printed_page_numbers": [
+      159
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 178,
+    "book_page": 160,
+    "printed_page_numbers": [
+      160
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 179,
+    "book_page": 161,
+    "printed_page_numbers": [
+      161
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 180,
+    "book_page": 162,
+    "printed_page_numbers": [
+      162
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 181,
+    "book_page": 163,
+    "printed_page_numbers": [
+      163
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 182,
+    "book_page": 164,
+    "printed_page_numbers": [
+      164
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 183,
+    "book_page": 165,
+    "printed_page_numbers": [
+      165
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 184,
+    "book_page": 166,
+    "printed_page_numbers": [
+      166
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 185,
+    "book_page": 167,
+    "printed_page_numbers": [
+      167
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 186,
+    "book_page": 168,
+    "printed_page_numbers": [
+      168
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 187,
+    "book_page": 169,
+    "printed_page_numbers": [
+      169
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 188,
+    "book_page": 170,
+    "printed_page_numbers": [
+      170
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 189,
+    "book_page": 171,
+    "printed_page_numbers": [
+      171
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 190,
+    "book_page": 172,
+    "printed_page_numbers": [
+      172
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 191,
+    "book_page": 173,
+    "printed_page_numbers": [
+      173
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 192,
+    "book_page": 174,
+    "printed_page_numbers": [
+      174
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 193,
+    "book_page": 175,
+    "printed_page_numbers": [
+      175
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 194,
+    "book_page": 176,
+    "printed_page_numbers": [
+      176
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 195,
+    "book_page": 177,
+    "printed_page_numbers": [
+      177
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 196,
+    "book_page": 178,
+    "printed_page_numbers": [
+      178
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 197,
+    "book_page": 179,
+    "printed_page_numbers": [
+      179
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 198,
+    "book_page": 180,
+    "printed_page_numbers": [
+      180
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 199,
+    "book_page": 181,
+    "printed_page_numbers": [
+      181
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 200,
+    "book_page": 182,
+    "printed_page_numbers": [
+      182
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 201,
+    "book_page": 183,
+    "printed_page_numbers": [
+      183
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 202,
+    "book_page": 184,
+    "printed_page_numbers": [
+      184
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 203,
+    "book_page": 185,
+    "printed_page_numbers": [
+      185
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 204,
+    "book_page": 186,
+    "printed_page_numbers": [
+      186
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 205,
+    "book_page": 187,
+    "printed_page_numbers": [
+      187
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 206,
+    "book_page": 188,
+    "printed_page_numbers": [
+      188
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 207,
+    "book_page": 189,
+    "printed_page_numbers": [
+      189
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 208,
+    "book_page": 190,
+    "printed_page_numbers": [
+      190
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 209,
+    "book_page": 191,
+    "printed_page_numbers": [
+      191
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 210,
+    "book_page": 192,
+    "printed_page_numbers": [
+      192
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 211,
+    "book_page": 193,
+    "printed_page_numbers": [
+      193
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 212,
+    "book_page": 194,
+    "printed_page_numbers": [
+      194
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 213,
+    "book_page": 195,
+    "printed_page_numbers": [
+      195
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 214,
+    "book_page": 196,
+    "printed_page_numbers": [
+      196
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 215,
+    "book_page": 197,
+    "printed_page_numbers": [
+      197
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 216,
+    "book_page": 198,
+    "printed_page_numbers": [],
+    "verified": false,
+    "first_page_without_number": false,
+    "basis": "篇章起始页未印页码，按相邻连续页推定"
+  },
+  {
+    "pdf_page": 217,
+    "book_page": 199,
+    "printed_page_numbers": [
+      199
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 218,
+    "book_page": 200,
+    "printed_page_numbers": [
+      200
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 219,
+    "book_page": 201,
+    "printed_page_numbers": [
+      201
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 220,
+    "book_page": 202,
+    "printed_page_numbers": [
+      202
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 221,
+    "book_page": 203,
+    "printed_page_numbers": [
+      203
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 222,
+    "book_page": 204,
+    "printed_page_numbers": [
+      204
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 223,
+    "book_page": 205,
+    "printed_page_numbers": [
+      205
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 224,
+    "book_page": 206,
+    "printed_page_numbers": [
+      206
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 225,
+    "book_page": 207,
+    "printed_page_numbers": [
+      207
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 226,
+    "book_page": 208,
+    "printed_page_numbers": [
+      208
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 227,
+    "book_page": 209,
+    "printed_page_numbers": [
+      209
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 228,
+    "book_page": 210,
+    "printed_page_numbers": [
+      210
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 229,
+    "book_page": 211,
+    "printed_page_numbers": [
+      211
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 230,
+    "book_page": 212,
+    "printed_page_numbers": [
+      212
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 231,
+    "book_page": 213,
+    "printed_page_numbers": [
+      213
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 232,
+    "book_page": 214,
+    "printed_page_numbers": [
+      214
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 233,
+    "book_page": 215,
+    "printed_page_numbers": [
+      215
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 234,
+    "book_page": 216,
+    "printed_page_numbers": [
+      216
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 235,
+    "book_page": 217,
+    "printed_page_numbers": [
+      217
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 236,
+    "book_page": 218,
+    "printed_page_numbers": [
+      218
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 237,
+    "book_page": 219,
+    "printed_page_numbers": [
+      219
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 238,
+    "book_page": 220,
+    "printed_page_numbers": [
+      220
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 239,
+    "book_page": 221,
+    "printed_page_numbers": [
+      221
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 240,
+    "book_page": 222,
+    "printed_page_numbers": [
+      222
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 241,
+    "book_page": 223,
+    "printed_page_numbers": [
+      223
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 242,
+    "book_page": 224,
+    "printed_page_numbers": [
+      224
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 243,
+    "book_page": 225,
+    "printed_page_numbers": [
+      225
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 244,
+    "book_page": 226,
+    "printed_page_numbers": [
+      226
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 245,
+    "book_page": 227,
+    "printed_page_numbers": [
+      227
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 246,
+    "book_page": 228,
+    "printed_page_numbers": [
+      228
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 247,
+    "book_page": 229,
+    "printed_page_numbers": [
+      229
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 248,
+    "book_page": 230,
+    "printed_page_numbers": [
+      230
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 249,
+    "book_page": 231,
+    "printed_page_numbers": [
+      231
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 250,
+    "book_page": 232,
+    "printed_page_numbers": [],
+    "verified": false,
+    "first_page_without_number": false,
+    "basis": "篇章起始页未印页码，按相邻连续页推定"
+  },
+  {
+    "pdf_page": 251,
+    "book_page": 233,
+    "printed_page_numbers": [
+      233
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 252,
+    "book_page": 234,
+    "printed_page_numbers": [
+      234
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 253,
+    "book_page": 235,
+    "printed_page_numbers": [
+      235
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 254,
+    "book_page": 236,
+    "printed_page_numbers": [],
+    "verified": false,
+    "first_page_without_number": false,
+    "basis": "篇章起始页未印页码，按相邻连续页推定"
+  },
+  {
+    "pdf_page": 255,
+    "book_page": 237,
+    "printed_page_numbers": [
+      237
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  },
+  {
+    "pdf_page": 256,
+    "book_page": 238,
+    "printed_page_numbers": [
+      238
+    ],
+    "verified": true,
+    "first_page_without_number": false,
+    "basis": "印刷页码核对"
+  }
+]

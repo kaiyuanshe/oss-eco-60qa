@@ -1,0 +1,3052 @@
+[
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": null,
+    "question_title": "",
+    "section_no": "",
+    "section_title": "",
+    "type": "part",
+    "pdf_page": 19,
+    "book_page": 1
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 1,
+    "question_title": "开源软件与自由软件有何区别",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 19,
+    "book_page": 1
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 1,
+    "question_title": "开源软件与自由软件有何区别",
+    "section_no": "1.1",
+    "section_title": "自由软件与自由软件运动的由来",
+    "type": "section",
+    "pdf_page": 19,
+    "book_page": 1
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 1,
+    "question_title": "开源软件与自由软件有何区别",
+    "section_no": "1.2",
+    "section_title": "如何定义“开源”",
+    "type": "section",
+    "pdf_page": 20,
+    "book_page": 2
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 1,
+    "question_title": "开源软件与自由软件有何区别",
+    "section_no": "1.3",
+    "section_title": "从自由软件到开源软件的不变与变",
+    "type": "section",
+    "pdf_page": 21,
+    "book_page": 3
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 2,
+    "question_title": "开源运动是如何起源的",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 22,
+    "book_page": 4
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 2,
+    "question_title": "开源运动是如何起源的",
+    "section_no": "2.1",
+    "section_title": "Linux 内核的诞生",
+    "type": "section",
+    "pdf_page": 22,
+    "book_page": 4
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 2,
+    "question_title": "开源运动是如何起源的",
+    "section_no": "2.2",
+    "section_title": "《大教堂与集市》：最早的观察与总结",
+    "type": "section",
+    "pdf_page": 23,
+    "book_page": 5
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 2,
+    "question_title": "开源运动是如何起源的",
+    "section_no": "2.3",
+    "section_title": "浏览器大战与Netscape Navigator 的开源",
+    "type": "section",
+    "pdf_page": 24,
+    "book_page": 6
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 2,
+    "question_title": "开源运动是如何起源的",
+    "section_no": "2.4",
+    "section_title": "“Open Source”一词的提出与OSI 的成立",
+    "type": "section",
+    "pdf_page": 24,
+    "book_page": 6
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 2,
+    "question_title": "开源运动是如何起源的",
+    "section_no": "2.5",
+    "section_title": "从互联网泡沫到Linux 操作系统公司上市",
+    "type": "section",
+    "pdf_page": 25,
+    "book_page": 7
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 3,
+    "question_title": "开源软件目前的发展状况如何",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 25,
+    "book_page": 7
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 3,
+    "question_title": "开源软件目前的发展状况如何",
+    "section_no": "3.1",
+    "section_title": "开源在全球范围内的成功",
+    "type": "section",
+    "pdf_page": 26,
+    "book_page": 8
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 3,
+    "question_title": "开源软件目前的发展状况如何",
+    "section_no": "3.2",
+    "section_title": "全球开源进入成熟化平台期，AI 开源成为新增长极",
+    "type": "section",
+    "pdf_page": 27,
+    "book_page": 9
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 3,
+    "question_title": "开源软件目前的发展状况如何",
+    "section_no": "3.3",
+    "section_title": "开源在中国的发展状况",
+    "type": "section",
+    "pdf_page": 29,
+    "book_page": 11
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 3,
+    "question_title": "开源软件目前的发展状况如何",
+    "section_no": "3.4",
+    "section_title": "中国开源的挑战与不足",
+    "type": "section",
+    "pdf_page": 33,
+    "book_page": 15
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 4,
+    "question_title": "为什么开源软件比专有软件更有吸引力",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 34,
+    "book_page": 16
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 4,
+    "question_title": "为什么开源软件比专有软件更有吸引力",
+    "section_no": "4.1",
+    "section_title": "成本优势",
+    "type": "section",
+    "pdf_page": 35,
+    "book_page": 17
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 4,
+    "question_title": "为什么开源软件比专有软件更有吸引力",
+    "section_no": "4.2",
+    "section_title": "灵活定制",
+    "type": "section",
+    "pdf_page": 35,
+    "book_page": 17
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 4,
+    "question_title": "为什么开源软件比专有软件更有吸引力",
+    "section_no": "4.3",
+    "section_title": "安全可靠",
+    "type": "section",
+    "pdf_page": 35,
+    "book_page": 17
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 4,
+    "question_title": "为什么开源软件比专有软件更有吸引力",
+    "section_no": "4.4",
+    "section_title": "社区创新",
+    "type": "section",
+    "pdf_page": 36,
+    "book_page": 18
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 4,
+    "question_title": "为什么开源软件比专有软件更有吸引力",
+    "section_no": "4.5",
+    "section_title": "有利于人员招聘",
+    "type": "section",
+    "pdf_page": 36,
+    "book_page": 18
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 5,
+    "question_title": "开源的核心价值观是什么",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 36,
+    "book_page": 18
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 5,
+    "question_title": "开源的核心价值观是什么",
+    "section_no": "5.1",
+    "section_title": "开源项目的本质",
+    "type": "section",
+    "pdf_page": 37,
+    "book_page": 19
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 5,
+    "question_title": "开源的核心价值观是什么",
+    "section_no": "5.2",
+    "section_title": "开源生态的本质",
+    "type": "section",
+    "pdf_page": 38,
+    "book_page": 20
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 5,
+    "question_title": "开源的核心价值观是什么",
+    "section_no": "5.3",
+    "section_title": "开源从何而来",
+    "type": "section",
+    "pdf_page": 38,
+    "book_page": 20
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 5,
+    "question_title": "开源的核心价值观是什么",
+    "section_no": "5.4",
+    "section_title": "开源的价值",
+    "type": "section",
+    "pdf_page": 38,
+    "book_page": 20
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 5,
+    "question_title": "开源的核心价值观是什么",
+    "section_no": "5.5",
+    "section_title": "开源的核心价值观",
+    "type": "section",
+    "pdf_page": 39,
+    "book_page": 21
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 6,
+    "question_title": "开源软件的许可证有哪些类型？它们各自的特点是什么",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 39,
+    "book_page": 21
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 6,
+    "question_title": "开源软件的许可证有哪些类型？它们各自的特点是什么",
+    "section_no": "6.1",
+    "section_title": "许可证及许可证的各种类型",
+    "type": "section",
+    "pdf_page": 40,
+    "book_page": 22
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 6,
+    "question_title": "开源软件的许可证有哪些类型？它们各自的特点是什么",
+    "section_no": "6.2",
+    "section_title": "开源许可证的重要性",
+    "type": "section",
+    "pdf_page": 40,
+    "book_page": 22
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 6,
+    "question_title": "开源软件的许可证有哪些类型？它们各自的特点是什么",
+    "section_no": "6.3",
+    "section_title": "开源许可证的分类概览",
+    "type": "section",
+    "pdf_page": 41,
+    "book_page": 23
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 6,
+    "question_title": "开源软件的许可证有哪些类型？它们各自的特点是什么",
+    "section_no": "6.4",
+    "section_title": "常见开源许可证的特征",
+    "type": "section",
+    "pdf_page": 42,
+    "book_page": 24
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 7,
+    "question_title": "选择开源许可证时需要考虑哪些因素",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 43,
+    "book_page": 25
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 7,
+    "question_title": "选择开源许可证时需要考虑哪些因素",
+    "section_no": "7.1",
+    "section_title": "企业使用开源软件",
+    "type": "section",
+    "pdf_page": 43,
+    "book_page": 25
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 7,
+    "question_title": "选择开源许可证时需要考虑哪些因素",
+    "section_no": "7.2",
+    "section_title": "企业参与外部开源社区",
+    "type": "section",
+    "pdf_page": 44,
+    "book_page": 26
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 7,
+    "question_title": "选择开源许可证时需要考虑哪些因素",
+    "section_no": "7.3",
+    "section_title": "企业对外开源自身软件",
+    "type": "section",
+    "pdf_page": 45,
+    "book_page": 27
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 8,
+    "question_title": "开源如何影响软件开发的方式和文化",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 46,
+    "book_page": 28
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 8,
+    "question_title": "开源如何影响软件开发的方式和文化",
+    "section_no": "8.1",
+    "section_title": "从“大教堂”到“集市”：软件开发范式的转变",
+    "type": "section",
+    "pdf_page": 46,
+    "book_page": 28
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 8,
+    "question_title": "开源如何影响软件开发的方式和文化",
+    "section_no": "8.2",
+    "section_title": "开源社区的实践原则：快速迭代与用户反馈",
+    "type": "section",
+    "pdf_page": 47,
+    "book_page": 29
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 8,
+    "question_title": "开源如何影响软件开发的方式和文化",
+    "section_no": "8.3",
+    "section_title": "分布式开发与精英治理：多元化的贡献者结构",
+    "type": "section",
+    "pdf_page": 47,
+    "book_page": 29
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 8,
+    "question_title": "开源如何影响软件开发的方式和文化",
+    "section_no": "8.4",
+    "section_title": "林纳斯法则：质量保障的独特逻辑",
+    "type": "section",
+    "pdf_page": 48,
+    "book_page": 30
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 8,
+    "question_title": "开源如何影响软件开发的方式和文化",
+    "section_no": "8.5",
+    "section_title": "在线包管理工具：生态系统与再利用的繁荣",
+    "type": "section",
+    "pdf_page": 48,
+    "book_page": 30
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 8,
+    "question_title": "开源如何影响软件开发的方式和文化",
+    "section_no": "8.6",
+    "section_title": "社交化编程与自动化工具：从协作到文化升级",
+    "type": "section",
+    "pdf_page": 48,
+    "book_page": 30
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 8,
+    "question_title": "开源如何影响软件开发的方式和文化",
+    "section_no": "8.7",
+    "section_title": "开放文化渗透企业：从开源到内源",
+    "type": "section",
+    "pdf_page": 49,
+    "book_page": 31
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 9,
+    "question_title": "开源人有哪些特点？如何与他们做朋友",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 49,
+    "book_page": 31
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 9,
+    "question_title": "开源人有哪些特点？如何与他们做朋友",
+    "section_no": "9.1",
+    "section_title": "开源人的特点",
+    "type": "section",
+    "pdf_page": 49,
+    "book_page": 31
+  },
+  {
+    "part": "第1 篇开源的定义、本质与理念",
+    "question_no": 9,
+    "question_title": "开源人有哪些特点？如何与他们做朋友",
+    "section_no": "9.2",
+    "section_title": "与开源人做朋友",
+    "type": "section",
+    "pdf_page": 50,
+    "book_page": 32
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": null,
+    "question_title": "",
+    "section_no": "",
+    "section_title": "",
+    "type": "part",
+    "pdf_page": 54,
+    "book_page": 36
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 10,
+    "question_title": "开源生态系统包括哪些关键角色",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 54,
+    "book_page": 36
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 10,
+    "question_title": "开源生态系统包括哪些关键角色",
+    "section_no": "10.1",
+    "section_title": "从“个人”与“组织”维度分类",
+    "type": "section",
+    "pdf_page": 54,
+    "book_page": 36
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 10,
+    "question_title": "开源生态系统包括哪些关键角色",
+    "section_no": "10.2",
+    "section_title": "从“教育、学术与政策”视角扩展出的角色",
+    "type": "section",
+    "pdf_page": 56,
+    "book_page": 38
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 10,
+    "question_title": "开源生态系统包括哪些关键角色",
+    "section_no": "10.3",
+    "section_title": "角色之间的交互与多重身份",
+    "type": "section",
+    "pdf_page": 58,
+    "book_page": 40
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 11,
+    "question_title": "开源基金会的角色定位是什么",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 58,
+    "book_page": 40
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 11,
+    "question_title": "开源基金会的角色定位是什么",
+    "section_no": "11.1",
+    "section_title": "开源基金会的角色定位",
+    "type": "section",
+    "pdf_page": 58,
+    "book_page": 40
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 11,
+    "question_title": "开源基金会的角色定位是什么",
+    "section_no": "11.2",
+    "section_title": "开源基金会的主要作用",
+    "type": "section",
+    "pdf_page": 60,
+    "book_page": 42
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 12,
+    "question_title": "如何理解开源项目的治理模式",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 61,
+    "book_page": 43
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 12,
+    "question_title": "如何理解开源项目的治理模式",
+    "section_no": "12.1",
+    "section_title": "开源项目治理模式的主要特征",
+    "type": "section",
+    "pdf_page": 61,
+    "book_page": 43
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 12,
+    "question_title": "如何理解开源项目的治理模式",
+    "section_no": "12.2",
+    "section_title": "主流治理模式的分类与特点",
+    "type": "section",
+    "pdf_page": 62,
+    "book_page": 44
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 12,
+    "question_title": "如何理解开源项目的治理模式",
+    "section_no": "12.3",
+    "section_title": "选择开源项目治理模式要考量的关键因素",
+    "type": "section",
+    "pdf_page": 63,
+    "book_page": 45
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 13,
+    "question_title": "开源项目的生命周期是怎样的",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 64,
+    "book_page": 46
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 13,
+    "question_title": "开源项目的生命周期是怎样的",
+    "section_no": "13.1",
+    "section_title": "开源项目生命周期",
+    "type": "section",
+    "pdf_page": 65,
+    "book_page": 47
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 13,
+    "question_title": "开源项目的生命周期是怎样的",
+    "section_no": "13.2",
+    "section_title": "阶段化策略",
+    "type": "section",
+    "pdf_page": 67,
+    "book_page": 49
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 14,
+    "question_title": "什么是开源项目的健康指标",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 68,
+    "book_page": 50
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 14,
+    "question_title": "什么是开源项目的健康指标",
+    "section_no": "14.1",
+    "section_title": "开源项目健康度评估的主流框架",
+    "type": "section",
+    "pdf_page": 68,
+    "book_page": 50
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 14,
+    "question_title": "什么是开源项目的健康指标",
+    "section_no": "14.2",
+    "section_title": "深入思考开源指标体系",
+    "type": "section",
+    "pdf_page": 73,
+    "book_page": 55
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 15,
+    "question_title": "开源标准化在开源生态系统中的价值是什么",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 74,
+    "book_page": 56
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 15,
+    "question_title": "开源标准化在开源生态系统中的价值是什么",
+    "section_no": "15.1",
+    "section_title": "开源标准化的基本概念与发展历程",
+    "type": "section",
+    "pdf_page": 74,
+    "book_page": 56
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 15,
+    "question_title": "开源标准化在开源生态系统中的价值是什么",
+    "section_no": "15.2",
+    "section_title": "标准化在开源生态系统中的核心价值",
+    "type": "section",
+    "pdf_page": 76,
+    "book_page": 58
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 15,
+    "question_title": "开源标准化在开源生态系统中的价值是什么",
+    "section_no": "15.3",
+    "section_title": "标准化缺失导致开源项目失败的反面案例",
+    "type": "section",
+    "pdf_page": 77,
+    "book_page": 59
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 15,
+    "question_title": "开源标准化在开源生态系统中的价值是什么",
+    "section_no": "15.4",
+    "section_title": "标准化面临的挑战与未来发展",
+    "type": "section",
+    "pdf_page": 78,
+    "book_page": 60
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 16,
+    "question_title": "开源项目如何实现全球化？面临哪些挑战",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 79,
+    "book_page": 61
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 16,
+    "question_title": "开源项目如何实现全球化？面临哪些挑战",
+    "section_no": "16.1",
+    "section_title": "开源全球化的4 层境界",
+    "type": "section",
+    "pdf_page": 79,
+    "book_page": 61
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 16,
+    "question_title": "开源项目如何实现全球化？面临哪些挑战",
+    "section_no": "16.2",
+    "section_title": "开源全球化的未来趋势",
+    "type": "section",
+    "pdf_page": 83,
+    "book_page": 65
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 17,
+    "question_title": "开源生态与开源供应链是什么关系",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 84,
+    "book_page": 66
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 17,
+    "question_title": "开源生态与开源供应链是什么关系",
+    "section_no": "17.1",
+    "section_title": "开源生态与开源供应链的结构关系",
+    "type": "section",
+    "pdf_page": 84,
+    "book_page": 66
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 17,
+    "question_title": "开源生态与开源供应链是什么关系",
+    "section_no": "17.2",
+    "section_title": "开源生态治理与开源供应链治理的区别",
+    "type": "section",
+    "pdf_page": 85,
+    "book_page": 67
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 18,
+    "question_title": "如何理解和防范开源生态风险与开源供应链风险",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 86,
+    "book_page": 68
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 18,
+    "question_title": "如何理解和防范开源生态风险与开源供应链风险",
+    "section_no": "18.1",
+    "section_title": "开源生态风险与开源供应链风险的区别",
+    "type": "section",
+    "pdf_page": 86,
+    "book_page": 68
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 18,
+    "question_title": "如何理解和防范开源生态风险与开源供应链风险",
+    "section_no": "18.2",
+    "section_title": "对开源供应链风险的理解",
+    "type": "section",
+    "pdf_page": 87,
+    "book_page": 69
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 18,
+    "question_title": "如何理解和防范开源生态风险与开源供应链风险",
+    "section_no": "18.3",
+    "section_title": "开源供应链的本质",
+    "type": "section",
+    "pdf_page": 88,
+    "book_page": 70
+  },
+  {
+    "part": "第2 篇开源生态系统",
+    "question_no": 18,
+    "question_title": "如何理解和防范开源生态风险与开源供应链风险",
+    "section_no": "18.4",
+    "section_title": "企业内部的开源治理",
+    "type": "section",
+    "pdf_page": 88,
+    "book_page": 70
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": null,
+    "question_title": "",
+    "section_no": "",
+    "section_title": "",
+    "type": "part",
+    "pdf_page": 90,
+    "book_page": 72
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 19,
+    "question_title": "企业如何通过开源降低成本并提升效率",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 90,
+    "book_page": 72
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 19,
+    "question_title": "企业如何通过开源降低成本并提升效率",
+    "section_no": "19.1",
+    "section_title": "企业使用开源能够降低成本",
+    "type": "section",
+    "pdf_page": 90,
+    "book_page": 72
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 19,
+    "question_title": "企业如何通过开源降低成本并提升效率",
+    "section_no": "19.2",
+    "section_title": "企业使用开源能够提升效率",
+    "type": "section",
+    "pdf_page": 91,
+    "book_page": 73
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 19,
+    "question_title": "企业如何通过开源降低成本并提升效率",
+    "section_no": "19.3",
+    "section_title": "企业使用开源的最佳实践",
+    "type": "section",
+    "pdf_page": 92,
+    "book_page": 74
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 20,
+    "question_title": "开源软件如何实现盈利",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 92,
+    "book_page": 74
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 20,
+    "question_title": "开源软件如何实现盈利",
+    "section_no": "20.1",
+    "section_title": "开源软件实现盈利的主流模式",
+    "type": "section",
+    "pdf_page": 93,
+    "book_page": 75
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 20,
+    "question_title": "开源软件如何实现盈利",
+    "section_no": "20.2",
+    "section_title": "各种模式的优缺点与适用场景分析",
+    "type": "section",
+    "pdf_page": 94,
+    "book_page": 76
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 20,
+    "question_title": "开源软件如何实现盈利",
+    "section_no": "20.3",
+    "section_title": "开源商业的混合模式",
+    "type": "section",
+    "pdf_page": 95,
+    "book_page": 77
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 20,
+    "question_title": "开源软件如何实现盈利",
+    "section_no": "20.4",
+    "section_title": "各类混合模式的商业动机与技术考量",
+    "type": "section",
+    "pdf_page": 96,
+    "book_page": 78
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 20,
+    "question_title": "开源软件如何实现盈利",
+    "section_no": "20.5",
+    "section_title": "典型企业的混合策略案例分析",
+    "type": "section",
+    "pdf_page": 96,
+    "book_page": 78
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 21,
+    "question_title": "开源商业模式的本质是什么",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 99,
+    "book_page": 81
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 21,
+    "question_title": "开源商业模式的本质是什么",
+    "section_no": "21.1",
+    "section_title": "一个简单的开源经济学模型",
+    "type": "section",
+    "pdf_page": 99,
+    "book_page": 81
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 21,
+    "question_title": "开源商业模式的本质是什么",
+    "section_no": "21.2",
+    "section_title": "影响开源商业模式整体利润的因素",
+    "type": "section",
+    "pdf_page": 100,
+    "book_page": 82
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 21,
+    "question_title": "开源商业模式的本质是什么",
+    "section_no": "21.3",
+    "section_title": "一种打击竞争对手的开源商业模式",
+    "type": "section",
+    "pdf_page": 101,
+    "book_page": 83
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 22,
+    "question_title": "服务与支持如何成为开源软件的收入来源",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 102,
+    "book_page": 84
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 22,
+    "question_title": "服务与支持如何成为开源软件的收入来源",
+    "section_no": "22.1",
+    "section_title": "开源软件服务与支持的具体形式",
+    "type": "section",
+    "pdf_page": 102,
+    "book_page": 84
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 22,
+    "question_title": "服务与支持如何成为开源软件的收入来源",
+    "section_no": "22.2",
+    "section_title": "开源软件服务与支持的收入情况",
+    "type": "section",
+    "pdf_page": 103,
+    "book_page": 85
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 23,
+    "question_title": "如何建立企业开源合规治理框架",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 104,
+    "book_page": 86
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 23,
+    "question_title": "如何建立企业开源合规治理框架",
+    "section_no": "23.1",
+    "section_title": "企业开源面临的合规性挑战",
+    "type": "section",
+    "pdf_page": 104,
+    "book_page": 86
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 23,
+    "question_title": "如何建立企业开源合规治理框架",
+    "section_no": "23.2",
+    "section_title": "企业开源合规治理框架",
+    "type": "section",
+    "pdf_page": 106,
+    "book_page": 88
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 24,
+    "question_title": "开源商业化有哪些成功的案例",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 109,
+    "book_page": 91
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 24,
+    "question_title": "开源商业化有哪些成功的案例",
+    "section_no": "24.1",
+    "section_title": "如何选择开源商业化的成功案例",
+    "type": "section",
+    "pdf_page": 109,
+    "book_page": 91
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 24,
+    "question_title": "开源商业化有哪些成功的案例",
+    "section_no": "24.2",
+    "section_title": "红帽：开源商业化的范式革新",
+    "type": "section",
+    "pdf_page": 110,
+    "book_page": 92
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 24,
+    "question_title": "开源商业化有哪些成功的案例",
+    "section_no": "24.3",
+    "section_title": "谷歌：开源生态的流量霸权",
+    "type": "section",
+    "pdf_page": 111,
+    "book_page": 93
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 24,
+    "question_title": "开源商业化有哪些成功的案例",
+    "section_no": "24.4",
+    "section_title": "PingCAP：开源数据库的全球化突围",
+    "type": "section",
+    "pdf_page": 112,
+    "book_page": 94
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 24,
+    "question_title": "开源商业化有哪些成功的案例",
+    "section_no": "24.5",
+    "section_title": "华为：从封闭到开放的生态转型",
+    "type": "section",
+    "pdf_page": 113,
+    "book_page": 95
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 25,
+    "question_title": "如何评估开源商业模式的可行性",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 114,
+    "book_page": 96
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 25,
+    "question_title": "如何评估开源商业模式的可行性",
+    "section_no": "25.1",
+    "section_title": "市场需求：产品是否能够满足特定的市场需求，目标用户是否有足够的付费意愿",
+    "type": "section",
+    "pdf_page": 114,
+    "book_page": 96
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 25,
+    "question_title": "如何评估开源商业模式的可行性",
+    "section_no": "25.2",
+    "section_title": "技术架构：发展阶段与成熟度",
+    "type": "section",
+    "pdf_page": 115,
+    "book_page": 97
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 25,
+    "question_title": "如何评估开源商业模式的可行性",
+    "section_no": "25.3",
+    "section_title": "社区状况：活跃度与贡献者画像",
+    "type": "section",
+    "pdf_page": 115,
+    "book_page": 97
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 25,
+    "question_title": "如何评估开源商业模式的可行性",
+    "section_no": "25.4",
+    "section_title": "竞争格局：竞争态势与团队能力",
+    "type": "section",
+    "pdf_page": 116,
+    "book_page": 98
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 25,
+    "question_title": "如何评估开源商业模式的可行性",
+    "section_no": "25.5",
+    "section_title": "知识产权：保护策略与合规风险",
+    "type": "section",
+    "pdf_page": 117,
+    "book_page": 99
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 26,
+    "question_title": "企业应如何制定开源战略",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 118,
+    "book_page": 100
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 26,
+    "question_title": "企业应如何制定开源战略",
+    "section_no": "26.1",
+    "section_title": "评估经营状况",
+    "type": "section",
+    "pdf_page": 118,
+    "book_page": 100
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 26,
+    "question_title": "企业应如何制定开源战略",
+    "section_no": "26.2",
+    "section_title": "明确战略目标",
+    "type": "section",
+    "pdf_page": 118,
+    "book_page": 100
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 26,
+    "question_title": "企业应如何制定开源战略",
+    "section_no": "26.3",
+    "section_title": "搭建组织与制定政策",
+    "type": "section",
+    "pdf_page": 119,
+    "book_page": 101
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 26,
+    "question_title": "企业应如何制定开源战略",
+    "section_no": "26.4",
+    "section_title": "具体执行与度量",
+    "type": "section",
+    "pdf_page": 120,
+    "book_page": 102
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 27,
+    "question_title": "企业在开源中的常见误区有哪些",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 120,
+    "book_page": 102
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 27,
+    "question_title": "企业在开源中的常见误区有哪些",
+    "section_no": "27.1",
+    "section_title": "从核心维度看企业开源误区",
+    "type": "section",
+    "pdf_page": 120,
+    "book_page": 102
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 27,
+    "question_title": "企业在开源中的常见误区有哪些",
+    "section_no": "27.2",
+    "section_title": "时间维度下的误区演进",
+    "type": "section",
+    "pdf_page": 121,
+    "book_page": 103
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 28,
+    "question_title": "如何在企业中推广开源文化",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 122,
+    "book_page": 104
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 28,
+    "question_title": "如何在企业中推广开源文化",
+    "section_no": "28.1",
+    "section_title": "为何要在企业中推广开源文化",
+    "type": "section",
+    "pdf_page": 122,
+    "book_page": 104
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 28,
+    "question_title": "如何在企业中推广开源文化",
+    "section_no": "28.2",
+    "section_title": "推广路径与实践策略",
+    "type": "section",
+    "pdf_page": 122,
+    "book_page": 104
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 28,
+    "question_title": "如何在企业中推广开源文化",
+    "section_no": "28.3",
+    "section_title": "关键挑战与破解之道",
+    "type": "section",
+    "pdf_page": 124,
+    "book_page": 106
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 29,
+    "question_title": "什么是内源，为何在企业中推广内源",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 124,
+    "book_page": 106
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 29,
+    "question_title": "什么是内源，为何在企业中推广内源",
+    "section_no": "29.1",
+    "section_title": "内源的定义与核心特征",
+    "type": "section",
+    "pdf_page": 124,
+    "book_page": 106
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 29,
+    "question_title": "什么是内源，为何在企业中推广内源",
+    "section_no": "29.2",
+    "section_title": "企业推广内源的核心动因",
+    "type": "section",
+    "pdf_page": 125,
+    "book_page": 107
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 29,
+    "question_title": "什么是内源，为何在企业中推广内源",
+    "section_no": "29.3",
+    "section_title": "如何解答那些对于内源的质疑",
+    "type": "section",
+    "pdf_page": 126,
+    "book_page": 108
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 30,
+    "question_title": "如何在企业中建立开源项目办公室",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 127,
+    "book_page": 109
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 30,
+    "question_title": "如何在企业中建立开源项目办公室",
+    "section_no": "30.1",
+    "section_title": "开源项目办公室的定义",
+    "type": "section",
+    "pdf_page": 127,
+    "book_page": 109
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 30,
+    "question_title": "如何在企业中建立开源项目办公室",
+    "section_no": "30.2",
+    "section_title": "开源项目办公室的价值",
+    "type": "section",
+    "pdf_page": 128,
+    "book_page": 110
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 30,
+    "question_title": "如何在企业中建立开源项目办公室",
+    "section_no": "30.3",
+    "section_title": "开源项目办公室的成长路径",
+    "type": "section",
+    "pdf_page": 128,
+    "book_page": 110
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 30,
+    "question_title": "如何在企业中建立开源项目办公室",
+    "section_no": "30.4",
+    "section_title": "开始前的准备工作",
+    "type": "section",
+    "pdf_page": 129,
+    "book_page": 111
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 30,
+    "question_title": "如何在企业中建立开源项目办公室",
+    "section_no": "30.5",
+    "section_title": "如何搭建开源项目办公室团队",
+    "type": "section",
+    "pdf_page": 131,
+    "book_page": 113
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 30,
+    "question_title": "如何在企业中建立开源项目办公室",
+    "section_no": "30.6",
+    "section_title": "建立开源项目办公室的常见挑战与解决方案",
+    "type": "section",
+    "pdf_page": 131,
+    "book_page": 113
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 31,
+    "question_title": "如何从开源社区招募人才",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 132,
+    "book_page": 114
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 31,
+    "question_title": "如何从开源社区招募人才",
+    "section_no": "31.1",
+    "section_title": "对开源人才的渴求程度与原因",
+    "type": "section",
+    "pdf_page": 132,
+    "book_page": 114
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 31,
+    "question_title": "如何从开源社区招募人才",
+    "section_no": "31.2",
+    "section_title": "战略定位：从短期挖人到长期共建",
+    "type": "section",
+    "pdf_page": 133,
+    "book_page": 115
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 31,
+    "question_title": "如何从开源社区招募人才",
+    "section_no": "31.3",
+    "section_title": "如何精准识别开源人才",
+    "type": "section",
+    "pdf_page": 133,
+    "book_page": 115
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 32,
+    "question_title": "如何通过开源提升企业的技术品牌",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 135,
+    "book_page": 117
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 32,
+    "question_title": "如何通过开源提升企业的技术品牌",
+    "section_no": "32.1",
+    "section_title": "技术品牌建设的4 个阶段",
+    "type": "section",
+    "pdf_page": 136,
+    "book_page": 118
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 32,
+    "question_title": "如何通过开源提升企业的技术品牌",
+    "section_no": "32.2",
+    "section_title": "核心实施策略",
+    "type": "section",
+    "pdf_page": 136,
+    "book_page": 118
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 32,
+    "question_title": "如何通过开源提升企业的技术品牌",
+    "section_no": "32.3",
+    "section_title": "效果评估指标",
+    "type": "section",
+    "pdf_page": 137,
+    "book_page": 119
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 32,
+    "question_title": "如何通过开源提升企业的技术品牌",
+    "section_no": "32.4",
+    "section_title": "针对中小企业的建议",
+    "type": "section",
+    "pdf_page": 137,
+    "book_page": 119
+  },
+  {
+    "part": "第3 篇开源商业模式",
+    "question_no": 32,
+    "question_title": "如何通过开源提升企业的技术品牌",
+    "section_no": "32.5",
+    "section_title": "典型案例参考",
+    "type": "section",
+    "pdf_page": 138,
+    "book_page": 120
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": null,
+    "question_title": "",
+    "section_no": "",
+    "section_title": "",
+    "type": "part",
+    "pdf_page": 140,
+    "book_page": 122
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 33,
+    "question_title": "开源社区的结构与运作是怎样的",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 140,
+    "book_page": 122
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 33,
+    "question_title": "开源社区的结构与运作是怎样的",
+    "section_no": "33.1",
+    "section_title": "社区的基本成员",
+    "type": "section",
+    "pdf_page": 140,
+    "book_page": 122
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 33,
+    "question_title": "开源社区的结构与运作是怎样的",
+    "section_no": "33.2",
+    "section_title": "社区成员的来源",
+    "type": "section",
+    "pdf_page": 141,
+    "book_page": 123
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 33,
+    "question_title": "开源社区的结构与运作是怎样的",
+    "section_no": "33.3",
+    "section_title": "维护者与核心开发者的工作",
+    "type": "section",
+    "pdf_page": 142,
+    "book_page": 124
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 33,
+    "question_title": "开源社区的结构与运作是怎样的",
+    "section_no": "33.4",
+    "section_title": "其他非技术性工作",
+    "type": "section",
+    "pdf_page": 142,
+    "book_page": 124
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 33,
+    "question_title": "开源社区的结构与运作是怎样的",
+    "section_no": "33.5",
+    "section_title": "社区的组织架构与决策机制",
+    "type": "section",
+    "pdf_page": 142,
+    "book_page": 124
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 34,
+    "question_title": "开源社区如何吸引和留住贡献者",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 142,
+    "book_page": 124
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 34,
+    "question_title": "开源社区如何吸引和留住贡献者",
+    "section_no": "34.1",
+    "section_title": "吸引贡献者的策略",
+    "type": "section",
+    "pdf_page": 143,
+    "book_page": 125
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 34,
+    "question_title": "开源社区如何吸引和留住贡献者",
+    "section_no": "34.2",
+    "section_title": "留住贡献者的策略",
+    "type": "section",
+    "pdf_page": 143,
+    "book_page": 125
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 34,
+    "question_title": "开源社区如何吸引和留住贡献者",
+    "section_no": "34.3",
+    "section_title": "社区治理和工具支持",
+    "type": "section",
+    "pdf_page": 144,
+    "book_page": 126
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 34,
+    "question_title": "开源社区如何吸引和留住贡献者",
+    "section_no": "34.4",
+    "section_title": "未来挑战和特征",
+    "type": "section",
+    "pdf_page": 145,
+    "book_page": 127
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 35,
+    "question_title": "如何开始为一个开源项目做贡献",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 145,
+    "book_page": 127
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 35,
+    "question_title": "如何开始为一个开源项目做贡献",
+    "section_no": "35.1",
+    "section_title": "参与开源的意义",
+    "type": "section",
+    "pdf_page": 145,
+    "book_page": 127
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 35,
+    "question_title": "如何开始为一个开源项目做贡献",
+    "section_no": "35.2",
+    "section_title": "贡献的多种形式",
+    "type": "section",
+    "pdf_page": 146,
+    "book_page": 128
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 35,
+    "question_title": "如何开始为一个开源项目做贡献",
+    "section_no": "35.3",
+    "section_title": "需要的基本技能",
+    "type": "section",
+    "pdf_page": 146,
+    "book_page": 128
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 35,
+    "question_title": "如何开始为一个开源项目做贡献",
+    "section_no": "35.4",
+    "section_title": "寻找适合新手的开源项目",
+    "type": "section",
+    "pdf_page": 147,
+    "book_page": 129
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 35,
+    "question_title": "如何开始为一个开源项目做贡献",
+    "section_no": "35.5",
+    "section_title": "第一次贡献的完整流程",
+    "type": "section",
+    "pdf_page": 148,
+    "book_page": 130
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 35,
+    "question_title": "如何开始为一个开源项目做贡献",
+    "section_no": "35.6",
+    "section_title": "其他帮助新手入门的资源",
+    "type": "section",
+    "pdf_page": 149,
+    "book_page": 131
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 35,
+    "question_title": "如何开始为一个开源项目做贡献",
+    "section_no": "35.7",
+    "section_title": "开始行动",
+    "type": "section",
+    "pdf_page": 149,
+    "book_page": 131
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 36,
+    "question_title": "从贡献者到维护者的成长路径是什么",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 149,
+    "book_page": 131
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 36,
+    "question_title": "从贡献者到维护者的成长路径是什么",
+    "section_no": "36.1",
+    "section_title": "成长的典型阶段",
+    "type": "section",
+    "pdf_page": 150,
+    "book_page": 132
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 36,
+    "question_title": "从贡献者到维护者的成长路径是什么",
+    "section_no": "36.2",
+    "section_title": "需要掌握的核心能力",
+    "type": "section",
+    "pdf_page": 151,
+    "book_page": 133
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 36,
+    "question_title": "从贡献者到维护者的成长路径是什么",
+    "section_no": "36.3",
+    "section_title": "如何获得晋升与建立信任",
+    "type": "section",
+    "pdf_page": 151,
+    "book_page": 133
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 36,
+    "question_title": "从贡献者到维护者的成长路径是什么",
+    "section_no": "36.4",
+    "section_title": "加速成长的实用策略",
+    "type": "section",
+    "pdf_page": 152,
+    "book_page": 134
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 36,
+    "question_title": "从贡献者到维护者的成长路径是什么",
+    "section_no": "36.5",
+    "section_title": "可能遇到的挑战及应对",
+    "type": "section",
+    "pdf_page": 152,
+    "book_page": 134
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 37,
+    "question_title": "开源社区如何管理冲突和分歧",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 153,
+    "book_page": 135
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 37,
+    "question_title": "开源社区如何管理冲突和分歧",
+    "section_no": "37.1",
+    "section_title": "冲突管理的总体思路",
+    "type": "section",
+    "pdf_page": 153,
+    "book_page": 135
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 37,
+    "question_title": "开源社区如何管理冲突和分歧",
+    "section_no": "37.2",
+    "section_title": "建立清晰的行为准则和社区规范",
+    "type": "section",
+    "pdf_page": 153,
+    "book_page": 135
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 37,
+    "question_title": "开源社区如何管理冲突和分歧",
+    "section_no": "37.3",
+    "section_title": "构建结构化的沟通与决策流程",
+    "type": "section",
+    "pdf_page": 154,
+    "book_page": 136
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 37,
+    "question_title": "开源社区如何管理冲突和分歧",
+    "section_no": "37.4",
+    "section_title": "实施协作式冲突解决机制",
+    "type": "section",
+    "pdf_page": 154,
+    "book_page": 136
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 37,
+    "question_title": "开源社区如何管理冲突和分歧",
+    "section_no": "37.5",
+    "section_title": "利用技术与工具辅助管理",
+    "type": "section",
+    "pdf_page": 154,
+    "book_page": 136
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 37,
+    "question_title": "开源社区如何管理冲突和分歧",
+    "section_no": "37.6",
+    "section_title": "坚持公开透明与持续反思",
+    "type": "section",
+    "pdf_page": 155,
+    "book_page": 137
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 37,
+    "question_title": "开源社区如何管理冲突和分歧",
+    "section_no": "37.7",
+    "section_title": "应对极端冲突的策略",
+    "type": "section",
+    "pdf_page": 155,
+    "book_page": 137
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 38,
+    "question_title": "开源社区的包容性和多样性为何重要",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 156,
+    "book_page": 138
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 38,
+    "question_title": "开源社区的包容性和多样性为何重要",
+    "section_no": "38.1",
+    "section_title": "多元与包容的重要性",
+    "type": "section",
+    "pdf_page": 157,
+    "book_page": 139
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 38,
+    "question_title": "开源社区的包容性和多样性为何重要",
+    "section_no": "38.2",
+    "section_title": "需要解决的现实问题",
+    "type": "section",
+    "pdf_page": 158,
+    "book_page": 140
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 38,
+    "question_title": "开源社区的包容性和多样性为何重要",
+    "section_no": "38.3",
+    "section_title": "提升多元与包容性的改进方案",
+    "type": "section",
+    "pdf_page": 159,
+    "book_page": 141
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 39,
+    "question_title": "开源社区如何评估贡献者的价值",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 160,
+    "book_page": 142
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 39,
+    "question_title": "开源社区如何评估贡献者的价值",
+    "section_no": "39.1",
+    "section_title": "技术贡献",
+    "type": "section",
+    "pdf_page": 160,
+    "book_page": 142
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 39,
+    "question_title": "开源社区如何评估贡献者的价值",
+    "section_no": "39.2",
+    "section_title": "非技术性贡献",
+    "type": "section",
+    "pdf_page": 160,
+    "book_page": 142
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 39,
+    "question_title": "开源社区如何评估贡献者的价值",
+    "section_no": "39.3",
+    "section_title": "行为品质",
+    "type": "section",
+    "pdf_page": 161,
+    "book_page": 143
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 39,
+    "question_title": "开源社区如何评估贡献者的价值",
+    "section_no": "39.4",
+    "section_title": "商业价值",
+    "type": "section",
+    "pdf_page": 161,
+    "book_page": 143
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 39,
+    "question_title": "开源社区如何评估贡献者的价值",
+    "section_no": "39.5",
+    "section_title": "量化指标的尝试",
+    "type": "section",
+    "pdf_page": 162,
+    "book_page": 144
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 40,
+    "question_title": "开源项目如何保障其长期可持续发展",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 162,
+    "book_page": 144
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 40,
+    "question_title": "开源项目如何保障其长期可持续发展",
+    "section_no": "40.1",
+    "section_title": "经济可持续性",
+    "type": "section",
+    "pdf_page": 163,
+    "book_page": 145
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 40,
+    "question_title": "开源项目如何保障其长期可持续发展",
+    "section_no": "40.2",
+    "section_title": "治理可持续性",
+    "type": "section",
+    "pdf_page": 163,
+    "book_page": 145
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 40,
+    "question_title": "开源项目如何保障其长期可持续发展",
+    "section_no": "40.3",
+    "section_title": "技术可持续性",
+    "type": "section",
+    "pdf_page": 164,
+    "book_page": 146
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 40,
+    "question_title": "开源项目如何保障其长期可持续发展",
+    "section_no": "40.4",
+    "section_title": "项目可持续性与生态可持续性",
+    "type": "section",
+    "pdf_page": 165,
+    "book_page": 147
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 41,
+    "question_title": "开源社区里的规则与潜规则有哪些",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 165,
+    "book_page": 147
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 41,
+    "question_title": "开源社区里的规则与潜规则有哪些",
+    "section_no": "41.1",
+    "section_title": "社区、潜规则与规则",
+    "type": "section",
+    "pdf_page": 165,
+    "book_page": 147
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 41,
+    "question_title": "开源社区里的规则与潜规则有哪些",
+    "section_no": "41.2",
+    "section_title": "开源伦理的演进",
+    "type": "section",
+    "pdf_page": 167,
+    "book_page": 149
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 41,
+    "question_title": "开源社区里的规则与潜规则有哪些",
+    "section_no": "41.3",
+    "section_title": "社会之礼与社区之礼",
+    "type": "section",
+    "pdf_page": 168,
+    "book_page": 150
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 41,
+    "question_title": "开源社区里的规则与潜规则有哪些",
+    "section_no": "41.4",
+    "section_title": "开源社区里的“成文法”与自动化规则",
+    "type": "section",
+    "pdf_page": 169,
+    "book_page": 151
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 41,
+    "question_title": "开源社区里的规则与潜规则有哪些",
+    "section_no": "41.5",
+    "section_title": "社区中的潜规则",
+    "type": "section",
+    "pdf_page": 170,
+    "book_page": 152
+  },
+  {
+    "part": "第4 篇开源社区",
+    "question_no": 41,
+    "question_title": "开源社区里的规则与潜规则有哪些",
+    "section_no": "41.6",
+    "section_title": "社区运营的艺术",
+    "type": "section",
+    "pdf_page": 171,
+    "book_page": 153
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": null,
+    "question_title": "",
+    "section_no": "",
+    "section_title": "",
+    "type": "part",
+    "pdf_page": 173,
+    "book_page": 155
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 42,
+    "question_title": "开源如何驱动技术创新",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 173,
+    "book_page": 155
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 42,
+    "question_title": "开源如何驱动技术创新",
+    "section_no": "42.1",
+    "section_title": "开源驱动创新的六大核心机制",
+    "type": "section",
+    "pdf_page": 173,
+    "book_page": 155
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 42,
+    "question_title": "开源如何驱动技术创新",
+    "section_no": "42.2",
+    "section_title": "开源驱动创新的实际成效",
+    "type": "section",
+    "pdf_page": 174,
+    "book_page": 156
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 42,
+    "question_title": "开源如何驱动技术创新",
+    "section_no": "42.3",
+    "section_title": "开源创新影响的量化评估",
+    "type": "section",
+    "pdf_page": 175,
+    "book_page": 157
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 42,
+    "question_title": "开源如何驱动技术创新",
+    "section_no": "42.4",
+    "section_title": "开源在中国语境下的机遇与挑战",
+    "type": "section",
+    "pdf_page": 176,
+    "book_page": 158
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 42,
+    "question_title": "开源如何驱动技术创新",
+    "section_no": "42.5",
+    "section_title": "开源创新面临的挑战与未来展望",
+    "type": "section",
+    "pdf_page": 177,
+    "book_page": 159
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 43,
+    "question_title": "开源如何影响AI 领域的发展",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 177,
+    "book_page": 159
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 43,
+    "question_title": "开源如何影响AI 领域的发展",
+    "section_no": "43.1",
+    "section_title": "开源在AI 发展中扮演的角色",
+    "type": "section",
+    "pdf_page": 178,
+    "book_page": 160
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 43,
+    "question_title": "开源如何影响AI 领域的发展",
+    "section_no": "43.2",
+    "section_title": "开源组件─奠定AI 创新与普及的基石",
+    "type": "section",
+    "pdf_page": 178,
+    "book_page": 160
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 43,
+    "question_title": "开源如何影响AI 领域的发展",
+    "section_no": "43.3",
+    "section_title": "2025 年开源AI 项目的技术版图",
+    "type": "section",
+    "pdf_page": 179,
+    "book_page": 161
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 43,
+    "question_title": "开源如何影响AI 领域的发展",
+    "section_no": "43.4",
+    "section_title": "开源AI 的伦理、安全与治理挑战",
+    "type": "section",
+    "pdf_page": 180,
+    "book_page": 162
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 44,
+    "question_title": "开源如何影响区块链领域的发展",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 181,
+    "book_page": 163
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 44,
+    "question_title": "开源如何影响区块链领域的发展",
+    "section_no": "44.1",
+    "section_title": "开源对区块链发展的六大核心影响",
+    "type": "section",
+    "pdf_page": 181,
+    "book_page": 163
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 44,
+    "question_title": "开源如何影响区块链领域的发展",
+    "section_no": "44.2",
+    "section_title": "在开源推动下诞生的新技术及跨领域影响",
+    "type": "section",
+    "pdf_page": 182,
+    "book_page": 164
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 44,
+    "question_title": "开源如何影响区块链领域的发展",
+    "section_no": "44.3",
+    "section_title": "区块链对开源社区的反向推动",
+    "type": "section",
+    "pdf_page": 183,
+    "book_page": 165
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 44,
+    "question_title": "开源如何影响区块链领域的发展",
+    "section_no": "44.4",
+    "section_title": "挑战与趋势",
+    "type": "section",
+    "pdf_page": 183,
+    "book_page": 165
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 45,
+    "question_title": "开源如何影响物联网领域的发展",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 184,
+    "book_page": 166
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 45,
+    "question_title": "开源如何影响物联网领域的发展",
+    "section_no": "45.1",
+    "section_title": "降低成本与开发门槛",
+    "type": "section",
+    "pdf_page": 185,
+    "book_page": 167
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 45,
+    "question_title": "开源如何影响物联网领域的发展",
+    "section_no": "45.2",
+    "section_title": "加速创新与迭代",
+    "type": "section",
+    "pdf_page": 185,
+    "book_page": 167
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 45,
+    "question_title": "开源如何影响物联网领域的发展",
+    "section_no": "45.3",
+    "section_title": "推动互操作性与标准化",
+    "type": "section",
+    "pdf_page": 186,
+    "book_page": 168
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 45,
+    "question_title": "开源如何影响物联网领域的发展",
+    "section_no": "45.4",
+    "section_title": "增强安全性与透明度",
+    "type": "section",
+    "pdf_page": 187,
+    "book_page": 169
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 45,
+    "question_title": "开源如何影响物联网领域的发展",
+    "section_no": "45.5",
+    "section_title": "构建繁荣生态与商业模式",
+    "type": "section",
+    "pdf_page": 187,
+    "book_page": 169
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 45,
+    "question_title": "开源如何影响物联网领域的发展",
+    "section_no": "45.6",
+    "section_title": "潜在的挑战、风险与展望",
+    "type": "section",
+    "pdf_page": 189,
+    "book_page": 171
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 46,
+    "question_title": "开源与知识产权之间，存在何种张力",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 189,
+    "book_page": 171
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 46,
+    "question_title": "开源与知识产权之间，存在何种张力",
+    "section_no": "46.1",
+    "section_title": "知识产权遭遇的历次挑战",
+    "type": "section",
+    "pdf_page": 189,
+    "book_page": 171
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 46,
+    "question_title": "开源与知识产权之间，存在何种张力",
+    "section_no": "46.2",
+    "section_title": "开源与知识产权的基本关系",
+    "type": "section",
+    "pdf_page": 191,
+    "book_page": 173
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 46,
+    "question_title": "开源与知识产权之间，存在何种张力",
+    "section_no": "46.3",
+    "section_title": "不同的角色如何认识与应对这样的张力",
+    "type": "section",
+    "pdf_page": 191,
+    "book_page": 173
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 47,
+    "question_title": "开源如何推动数字化转型",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 193,
+    "book_page": 175
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 47,
+    "question_title": "开源如何推动数字化转型",
+    "section_no": "47.1",
+    "section_title": "什么是数字化转型",
+    "type": "section",
+    "pdf_page": 193,
+    "book_page": 175
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 47,
+    "question_title": "开源如何推动数字化转型",
+    "section_no": "47.2",
+    "section_title": "企业与政府的数字化转型",
+    "type": "section",
+    "pdf_page": 194,
+    "book_page": 176
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 47,
+    "question_title": "开源如何推动数字化转型",
+    "section_no": "47.3",
+    "section_title": "开源在数字化转型中的作用",
+    "type": "section",
+    "pdf_page": 194,
+    "book_page": 176
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 48,
+    "question_title": "开源如何推动高校科研创新",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 196,
+    "book_page": 178
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 48,
+    "question_title": "开源如何推动高校科研创新",
+    "section_no": "48.1",
+    "section_title": "从开源到开放科学",
+    "type": "section",
+    "pdf_page": 196,
+    "book_page": 178
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 48,
+    "question_title": "开源如何推动高校科研创新",
+    "section_no": "48.2",
+    "section_title": "在高校开展开源教育的价值",
+    "type": "section",
+    "pdf_page": 197,
+    "book_page": 179
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 48,
+    "question_title": "开源如何推动高校科研创新",
+    "section_no": "48.3",
+    "section_title": "推动高校的科研成果开源",
+    "type": "section",
+    "pdf_page": 198,
+    "book_page": 180
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 48,
+    "question_title": "开源如何推动高校科研创新",
+    "section_no": "48.4",
+    "section_title": "展望未来的高校科研与开放科学",
+    "type": "section",
+    "pdf_page": 199,
+    "book_page": 181
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 49,
+    "question_title": "开源社区的未来会怎么发展",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 199,
+    "book_page": 181
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 49,
+    "question_title": "开源社区的未来会怎么发展",
+    "section_no": "49.1",
+    "section_title": "从代码社交到意图社交",
+    "type": "section",
+    "pdf_page": 200,
+    "book_page": 182
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 49,
+    "question_title": "开源社区的未来会怎么发展",
+    "section_no": "49.2",
+    "section_title": "项目的生命周期缩短，而社区的流动性加快",
+    "type": "section",
+    "pdf_page": 200,
+    "book_page": 182
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 49,
+    "question_title": "开源社区的未来会怎么发展",
+    "section_no": "49.3",
+    "section_title": "Agent 社区与AI 进化乐园",
+    "type": "section",
+    "pdf_page": 201,
+    "book_page": 183
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 49,
+    "question_title": "开源社区的未来会怎么发展",
+    "section_no": "49.4",
+    "section_title": "从开源到开放资源，再到开放智能",
+    "type": "section",
+    "pdf_page": 201,
+    "book_page": 183
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 50,
+    "question_title": "开源技术的未来趋势是什么",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 201,
+    "book_page": 183
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 50,
+    "question_title": "开源技术的未来趋势是什么",
+    "section_no": "50.1",
+    "section_title": "被AI 全面增强的开源",
+    "type": "section",
+    "pdf_page": 202,
+    "book_page": 184
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 50,
+    "question_title": "开源技术的未来趋势是什么",
+    "section_no": "50.2",
+    "section_title": "AI 对未来基础设施提出的挑战",
+    "type": "section",
+    "pdf_page": 203,
+    "book_page": 185
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 50,
+    "question_title": "开源技术的未来趋势是什么",
+    "section_no": "50.3",
+    "section_title": "开源安全与治理成为“头等大事”",
+    "type": "section",
+    "pdf_page": 204,
+    "book_page": 186
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 51,
+    "question_title": "如何构建开放、包容、可持续的开源未来",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 206,
+    "book_page": 188
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 51,
+    "question_title": "如何构建开放、包容、可持续的开源未来",
+    "section_no": "51.1",
+    "section_title": "开源生态正在遭遇哪些结构性挑战",
+    "type": "section",
+    "pdf_page": 206,
+    "book_page": 188
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 51,
+    "question_title": "如何构建开放、包容、可持续的开源未来",
+    "section_no": "51.2",
+    "section_title": "在撕裂与不平衡中重建开源的“多元共治”",
+    "type": "section",
+    "pdf_page": 208,
+    "book_page": 190
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 51,
+    "question_title": "如何构建开放、包容、可持续的开源未来",
+    "section_no": "51.3",
+    "section_title": "在不完美的世界里，坚持一种“更好的开放”",
+    "type": "section",
+    "pdf_page": 210,
+    "book_page": 192
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 52,
+    "question_title": "开源创新的边界在哪里",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 212,
+    "book_page": 194
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 52,
+    "question_title": "开源创新的边界在哪里",
+    "section_no": "52.1",
+    "section_title": "创新的多重场域与开源的真实位置",
+    "type": "section",
+    "pdf_page": 212,
+    "book_page": 194
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 52,
+    "question_title": "开源创新的边界在哪里",
+    "section_no": "52.2",
+    "section_title": "科研、企业与开源的分工与互补",
+    "type": "section",
+    "pdf_page": 212,
+    "book_page": 194
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 52,
+    "question_title": "开源创新的边界在哪里",
+    "section_no": "52.3",
+    "section_title": "开放协作与有组织创新的张力",
+    "type": "section",
+    "pdf_page": 213,
+    "book_page": 195
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 52,
+    "question_title": "开源创新的边界在哪里",
+    "section_no": "52.4",
+    "section_title": "国家视角下的开源创新：期待与纠偏",
+    "type": "section",
+    "pdf_page": 214,
+    "book_page": 196
+  },
+  {
+    "part": "第5 篇开源创新与未来",
+    "question_no": 52,
+    "question_title": "开源创新的边界在哪里",
+    "section_no": "52.5",
+    "section_title": "开源创新的几条关键边界",
+    "type": "section",
+    "pdf_page": 214,
+    "book_page": 196
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": null,
+    "question_title": "",
+    "section_no": "",
+    "section_title": "",
+    "type": "part",
+    "pdf_page": 216,
+    "book_page": 198
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 53,
+    "question_title": "政府如何在开源项目中发挥积极作用",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 216,
+    "book_page": 198
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 53,
+    "question_title": "政府如何在开源项目中发挥积极作用",
+    "section_no": "53.1",
+    "section_title": "政府介入开源的现实背景与必要性",
+    "type": "section",
+    "pdf_page": 216,
+    "book_page": 198
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 53,
+    "question_title": "政府如何在开源项目中发挥积极作用",
+    "section_no": "53.2",
+    "section_title": "政府在开源中的多重角色定位",
+    "type": "section",
+    "pdf_page": 217,
+    "book_page": 199
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 53,
+    "question_title": "政府如何在开源项目中发挥积极作用",
+    "section_no": "53.3",
+    "section_title": "支持开源项目的关键方法与工具",
+    "type": "section",
+    "pdf_page": 218,
+    "book_page": 200
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 53,
+    "question_title": "政府如何在开源项目中发挥积极作用",
+    "section_no": "53.4",
+    "section_title": "“积极”与“克制”的边界",
+    "type": "section",
+    "pdf_page": 219,
+    "book_page": 201
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 54,
+    "question_title": "如何制定切实可行的开源公共政策",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 220,
+    "book_page": 202
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 54,
+    "question_title": "如何制定切实可行的开源公共政策",
+    "section_no": "54.1",
+    "section_title": "开源公共政策的内涵与定位",
+    "type": "section",
+    "pdf_page": 220,
+    "book_page": 202
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 54,
+    "question_title": "如何制定切实可行的开源公共政策",
+    "section_no": "54.2",
+    "section_title": "制定开源公共政策的目标是什么",
+    "type": "section",
+    "pdf_page": 220,
+    "book_page": 202
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 54,
+    "question_title": "如何制定切实可行的开源公共政策",
+    "section_no": "54.3",
+    "section_title": "制定开源政策的基本原则",
+    "type": "section",
+    "pdf_page": 221,
+    "book_page": 203
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 54,
+    "question_title": "如何制定切实可行的开源公共政策",
+    "section_no": "54.4",
+    "section_title": "开源政策的主要工具箱",
+    "type": "section",
+    "pdf_page": 222,
+    "book_page": 204
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 54,
+    "question_title": "如何制定切实可行的开源公共政策",
+    "section_no": "54.5",
+    "section_title": "自上而下与自下而上的结合",
+    "type": "section",
+    "pdf_page": 223,
+    "book_page": 205
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 55,
+    "question_title": "制定开源政策时需要避免哪些典型误区",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 224,
+    "book_page": 206
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 55,
+    "question_title": "制定开源政策时需要避免哪些典型误区",
+    "section_no": "55.1",
+    "section_title": "基于错误“供应链想象”的开源断供恐慌",
+    "type": "section",
+    "pdf_page": 224,
+    "book_page": 206
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 55,
+    "question_title": "制定开源政策时需要避免哪些典型误区",
+    "section_no": "55.2",
+    "section_title": "错误的科技创新想象：把开源当成万能的“突破秘籍”",
+    "type": "section",
+    "pdf_page": 225,
+    "book_page": 207
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 55,
+    "question_title": "制定开源政策时需要避免哪些典型误区",
+    "section_no": "55.3",
+    "section_title": "把补贴当主角：试图通过“涓滴效应”扶植开源生态",
+    "type": "section",
+    "pdf_page": 226,
+    "book_page": 208
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 55,
+    "question_title": "制定开源政策时需要避免哪些典型误区",
+    "section_no": "55.4",
+    "section_title": "用行政与KPI 逻辑替代社区逻辑",
+    "type": "section",
+    "pdf_page": 226,
+    "book_page": 208
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 55,
+    "question_title": "制定开源政策时需要避免哪些典型误区",
+    "section_no": "55.5",
+    "section_title": "忽视“数字公共产品”本质与制度配套的狭隘视角",
+    "type": "section",
+    "pdf_page": 227,
+    "book_page": 209
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 56,
+    "question_title": "政府与企业如何通过采购策略与产业政策共建开源生态",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 228,
+    "book_page": 210
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 56,
+    "question_title": "政府与企业如何通过采购策略与产业政策共建开源生态",
+    "section_no": "56.1",
+    "section_title": "从“项目采购”到“生态共建”的政策逻辑",
+    "type": "section",
+    "pdf_page": 228,
+    "book_page": 210
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 56,
+    "question_title": "政府与企业如何通过采购策略与产业政策共建开源生态",
+    "section_no": "56.2",
+    "section_title": "自主可控：关键在于保障开源供应链安全",
+    "type": "section",
+    "pdf_page": 229,
+    "book_page": 211
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 56,
+    "question_title": "政府与企业如何通过采购策略与产业政策共建开源生态",
+    "section_no": "56.3",
+    "section_title": "产业政策：把开源当作“基础设施投资”，而不仅是“应用补贴”",
+    "type": "section",
+    "pdf_page": 229,
+    "book_page": 211
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 57,
+    "question_title": "政府与开源基金会如何通过中立平台实现多方共治",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 230,
+    "book_page": 212
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 57,
+    "question_title": "政府与开源基金会如何通过中立平台实现多方共治",
+    "section_no": "57.1",
+    "section_title": "案例研究：欧盟与Eclipse 基金会的协作关系",
+    "type": "section",
+    "pdf_page": 230,
+    "book_page": 212
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 57,
+    "question_title": "政府与开源基金会如何通过中立平台实现多方共治",
+    "section_no": "57.2",
+    "section_title": "案例研究：德国与主权科技基金的协作关系",
+    "type": "section",
+    "pdf_page": 232,
+    "book_page": 214
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 57,
+    "question_title": "政府与开源基金会如何通过中立平台实现多方共治",
+    "section_no": "57.3",
+    "section_title": "中国特色的实践",
+    "type": "section",
+    "pdf_page": 233,
+    "book_page": 215
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 58,
+    "question_title": "政府与教育机构：如何以开源为抓手培养人才与推动科研",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 234,
+    "book_page": 216
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 58,
+    "question_title": "政府与教育机构：如何以开源为抓手培养人才与推动科研",
+    "section_no": "58.1",
+    "section_title": "开源是新型人才培养方式",
+    "type": "section",
+    "pdf_page": 234,
+    "book_page": 216
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 58,
+    "question_title": "政府与教育机构：如何以开源为抓手培养人才与推动科研",
+    "section_no": "58.2",
+    "section_title": "开源教育相关案例介绍",
+    "type": "section",
+    "pdf_page": 235,
+    "book_page": 217
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 58,
+    "question_title": "政府与教育机构：如何以开源为抓手培养人才与推动科研",
+    "section_no": "58.3",
+    "section_title": "受到开源启发的开放科学",
+    "type": "section",
+    "pdf_page": 236,
+    "book_page": 218
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 58,
+    "question_title": "政府与教育机构：如何以开源为抓手培养人才与推动科研",
+    "section_no": "58.4",
+    "section_title": "开放科学的相关案例介绍",
+    "type": "section",
+    "pdf_page": 237,
+    "book_page": 219
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 58,
+    "question_title": "政府与教育机构：如何以开源为抓手培养人才与推动科研",
+    "section_no": "58.5",
+    "section_title": "政府如何推动基于开源的产学研协同",
+    "type": "section",
+    "pdf_page": 238,
+    "book_page": 220
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 59,
+    "question_title": "如何打造能够吸引全球开源人才的城市",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 239,
+    "book_page": 221
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 59,
+    "question_title": "如何打造能够吸引全球开源人才的城市",
+    "section_no": "59.1",
+    "section_title": "人才的交叠性质：头部人才为何反复涌入少数头部城市",
+    "type": "section",
+    "pdf_page": 239,
+    "book_page": 221
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 59,
+    "question_title": "如何打造能够吸引全球开源人才的城市",
+    "section_no": "59.2",
+    "section_title": "“吸引”的不同层次：从短期停留到长期定居的分层目标",
+    "type": "section",
+    "pdf_page": 240,
+    "book_page": 222
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 59,
+    "question_title": "如何打造能够吸引全球开源人才的城市",
+    "section_no": "59.3",
+    "section_title": "人才最重视的机会与基础设施：开源导向人才的“核心需求画像”",
+    "type": "section",
+    "pdf_page": 241,
+    "book_page": 223
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 59,
+    "question_title": "如何打造能够吸引全球开源人才的城市",
+    "section_no": "59.4",
+    "section_title": "城市人才战略：从愿景、定位到实施",
+    "type": "section",
+    "pdf_page": 242,
+    "book_page": 224
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 59,
+    "question_title": "如何打造能够吸引全球开源人才的城市",
+    "section_no": "59.5",
+    "section_title": "度量与保障体系：把战略固化为治理能力",
+    "type": "section",
+    "pdf_page": 243,
+    "book_page": 225
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 60,
+    "question_title": "如何通过开源实现科技外交",
+    "section_no": "",
+    "section_title": "题目导语",
+    "type": "question",
+    "pdf_page": 244,
+    "book_page": 226
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 60,
+    "question_title": "如何通过开源实现科技外交",
+    "section_no": "60.1",
+    "section_title": "科技外交",
+    "type": "section",
+    "pdf_page": 244,
+    "book_page": 226
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 60,
+    "question_title": "如何通过开源实现科技外交",
+    "section_no": "60.2",
+    "section_title": "开源作为科技外交的可能性与特殊性",
+    "type": "section",
+    "pdf_page": 244,
+    "book_page": 226
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 60,
+    "question_title": "如何通过开源实现科技外交",
+    "section_no": "60.3",
+    "section_title": "中国的科技外交策略",
+    "type": "section",
+    "pdf_page": 245,
+    "book_page": 227
+  },
+  {
+    "part": "第6 篇政府与开源政策",
+    "question_no": 60,
+    "question_title": "如何通过开源实现科技外交",
+    "section_no": "60.4",
+    "section_title": "中国通过开源实现科技外交的区域策略",
+    "type": "section",
+    "pdf_page": 247,
+    "book_page": 229
+  },
+  {
+    "part": "后记 AI 时代来临之后，正在剧变中的开源生态",
+    "question_no": null,
+    "question_title": "",
+    "section_no": "",
+    "section_title": "",
+    "type": "part",
+    "pdf_page": 250,
+    "book_page": 232
+  },
+  {
+    "part": "附录知名开源基金会介绍",
+    "question_no": null,
+    "question_title": "",
+    "section_no": "",
+    "section_title": "",
+    "type": "part",
+    "pdf_page": 254,
+    "book_page": 236
+  }
+]

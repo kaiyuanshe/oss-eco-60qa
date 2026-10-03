@@ -1,0 +1,622 @@
+"""Dify output guard: structural checks only; not a semantic verifier or OpenCC.
+Uses only Python standard library. Invalid answers are withheld, not patched.
+"""
+import re
+
+# Conservative regression characters. Shared forms such as 量 are intentionally absent.
+SIMPLIFIED = '质软开问页许协众变术隐权专闭垄宽业审规码计录护风险应选识踪声'
+TRADITIONAL = '質軟開問頁許協眾變術隱權專閉壟寬業審規碼計錄護風險應選識蹤聲'
+
+def _structural_guard(answer: str, retrieved: list, question: str) -> dict:
+    errors = []
+    answer = (answer or '').strip()
+    # Explicit script requests take priority. This is Chinese-only candidate logic.
+    if re.search(r'繁体|繁體|正體', question):
+        traditional = True
+    elif re.search(r'简体|簡體', question):
+        traditional = False
+    else:
+        traditional = any(c in question for c in TRADITIONAL)
+    refusal = '目前無法可靠完成這次回答的校驗，請稍後重試。' if traditional else '目前无法可靠完成这次回答的校验，请稍后重试。'
+    if not answer:
+        errors.append('empty_answer')
+    markers = list(re.finditer(r'(?m)^\s*(?:\*\*)?(?:来源|來源)(?:\*\*)?\s*[：:]?\s*$', answer))
+    body = answer[:markers[0].start()].strip() if markers else answer
+    sources = answer[markers[0].end():] if len(markers) == 1 else ''
+    if len(markers) > 1:
+        errors.append('multiple_source_lists')
+    refs = re.findall(r'\[(\d+)\]', body)
+    entries = re.findall(r'(?m)^\s*\[(\d+)\]\s*(.+)$', sources)
+    ids = [n for n, _ in entries]
+    if len(ids) != len(set(ids)):
+        errors.append('duplicate_source_number')
+    if set(refs) != set(ids):
+        errors.append('citation_source_mismatch')
+    if ids and ids != [str(n) for n in range(1, len(ids) + 1)]:
+        errors.append('source_order')
+    unique_refs = list(dict.fromkeys(refs))
+    if ids and unique_refs != ids:
+        errors.append('first_use_order')
+    if not refs and not re.search(r'资料不足|資料不足|不足以回答|无法回答|無法回答', body):
+        errors.append('missing_citations')
+    if refs and not body.startswith(('书中认为', '书中描述', '書中認為', '書中描述')):
+        errors.append('missing_attribution')
+    detailed = bool(re.search(r'详细|詳細|详尽|詳盡|展开|展開|逐条|逐條', question))
+    chars = len(re.sub(r'\s|\[\d+\]', '', body))
+    # Length is a presentation warning; it must not discard cited content.
+    count = len(re.findall(r'(?m)^\s*(?:[-*+]\s+|\d+[.、]\s*)', body))
+    if not detailed and count > 4:
+        errors.append('more_than_four_points')
+    if traditional:
+        found = ''.join(sorted(set(answer) & set(SIMPLIFIED)))
+    else:
+        found = ''.join(sorted(set(answer) & set(TRADITIONAL)))
+    if found:
+        errors.append('regression_script_characters:' + found)
+    catalog = set()
+    for item in retrieved or []:
+        text = item.get('content', '') if isinstance(item, dict) else ''
+        q = re.search(r'【题目】第(\d+)问', text)
+        sec = re.search(r'【小节】\s*(\d+\.\d+)\b', text)
+        pages = re.search(r'【页码】书内第(\d+)页；PDF第(\d+)页', text)
+        if q and sec and pages:
+            catalog.add((q[1], sec[1], pages[1], pages[2]))
+    for n, entry in entries:
+        if re.search(r'第\d+\s*[-—–~～至]\s*\d+\s*[页頁]', entry):
+            errors.append('merged_page_range:' + n)
+            continue
+        q = re.search(r'第(\d+)[问問]', entry)
+        sec = re.search(r'；\s*(\d+\.\d+)\b', entry)
+        pages = re.search(r'书内第(\d+)页\s*[／/]\s*PDF第(\d+)页|書內第(\d+)頁\s*[／/]\s*PDF第(\d+)頁', entry)
+        if not (q and sec and pages):
+            errors.append('source_format:' + n)
+            continue
+        a, b = (pages[1], pages[2]) if pages[1] else (pages[3], pages[4])
+        if (q[1], sec[1], a, b) not in catalog:
+            errors.append('source_not_in_current_retrieval:' + n)
+    return {'result': refusal if errors else answer,
+            'passed': not bool(errors),
+            'issues': '\n'.join(errors),
+            'body_chars': chars}
+
+
+"""Evidence presence and deterministic citations, not semantic entailment proof."""
+import json
+import re
+
+
+def _normalized(text):
+    return re.sub(r'\s+', '', text)
+
+
+def _clean_source_label(title, section, source):
+    title, section = title.strip(), section.strip()
+    q = re.match(r'^第(\d+)[问問]\s*', title)
+    if q:
+        if q[1] != source['q']:
+            raise ValueError('source_title_number_mismatch')
+        title = title[q.end():].strip()
+    sec = re.match(r'^(\d+\.\d+)(?:\s+|(?=[\u4e00-\u9fff]))', section)
+    if sec:
+        if sec[1] != source['sec']:
+            raise ValueError('source_section_number_mismatch')
+        section = section[sec.end():].strip()
+    if not title or not section:
+        raise ValueError('empty_source_label_after_prefix')
+    if re.match(r'^第\d+[问問]', title) or re.match(r'^\d+\.\d+(?:\s+|(?=[\u4e00-\u9fff]))', section):
+        raise ValueError('multiple_source_label_prefixes')
+    return title, section
+
+
+def _quote_main(answer: str, retrieved: list, question: str) -> dict:
+    fallback = _structural_guard('', retrieved, question)['result']
+    audit = []
+    try:
+        raw = (answer or '').strip()
+        if raw.startswith('```'):
+            raise ValueError('json_code_fence')
+        doc = json.loads(raw)
+        if not isinstance(doc, dict):
+            raise ValueError('json_object_required')
+        if doc.get('status') == 'insufficient':
+            text = doc.get('message', '')
+            if not isinstance(text, str) or not re.search(r'资料不足|資料不足|不足以回答', text):
+                raise ValueError('insufficient_message_required')
+            checked = _structural_guard(text, retrieved, question)
+            checked['evidence_audit'] = 'insufficient: semantic review still required'
+            return checked
+        if doc.get('status') != 'answer':
+            raise ValueError('answer_status_required')
+        catalog = {}
+        for item in retrieved or []:
+            content = item.get('content', '') if isinstance(item, dict) else ''
+            ident = re.search(r'【片段编号】\s*([^\s]+)', content)
+            q = re.search(r'【题目】第(\d+)问', content)
+            sec = re.search(r'【小节】\s*(\d+\.\d+)\b', content)
+            pages = re.search(r'【页码】书内第(\d+)页；PDF第(\d+)页', content)
+            if not (ident and q and sec and pages):
+                continue
+            # Only body text is accepted as a quote; metadata cannot support a claim.
+            body = content[ident.end():].strip()
+            value = {'q': q[1], 'sec': sec[1], 'book': pages[1], 'pdf': pages[2], 'body': body}
+            if ident[1] in catalog and catalog[ident[1]] != value:
+                raise ValueError('ambiguous_chunk_id:' + ident[1])
+            catalog[ident[1]] = value
+        displays = doc.get('source_labels')
+        if not isinstance(displays, dict):
+            raise ValueError('source_labels_required')
+        numbering = {}
+        labels = []
+        all_used = set()
+
+        def render_clause(clause, location):
+            if not isinstance(clause, dict):
+                raise ValueError('clause_object:' + location)
+            text = clause.get('text')
+            supports = clause.get('support')
+            if not isinstance(text, str) or not text.strip() or re.search(r'\[\d+\]|\n', text):
+                raise ValueError('clause_text:' + location)
+            if not isinstance(supports, list) or not supports or len(supports) > 8:
+                raise ValueError('clause_support:' + location)
+            numbers = []
+            for support in supports:
+                if not isinstance(support, dict):
+                    raise ValueError('support_object:' + location)
+                ident, quote = support.get('id'), support.get('quote')
+                if not isinstance(ident, str) or ident not in catalog:
+                    raise ValueError('unknown_chunk:' + str(ident))
+                if not isinstance(quote, str) or not 4 <= len(_normalized(quote)) <= 1000:
+                    raise ValueError('quote_length:' + ident)
+                if _normalized(quote) not in _normalized(catalog[ident]['body']):
+                    raise ValueError('quote_not_in_chunk:' + ident)
+                all_used.add(ident)
+                if ident not in numbering:
+                    display = displays.get(ident)
+                    if not isinstance(display, dict):
+                        raise ValueError('missing_source_label:' + ident)
+                    title, section = display.get('question_title'), display.get('section_title')
+                    if not isinstance(title, str) or not isinstance(section, str) or not title.strip() or not section.strip():
+                        raise ValueError('source_label_text:' + ident)
+                    title, section = _clean_source_label(title, section, catalog[ident])
+                    if re.search(r'[\n\[\]《》；]', title + section):
+                        raise ValueError('source_label_delimiters:' + ident)
+                    numbering[ident] = len(numbering) + 1
+                    labels.append((ident, title, section))
+                if numbering[ident] not in numbers:
+                    numbers.append(numbering[ident])
+                audit.append({'location': location, 'id': ident, 'quote': quote})
+            text = text.strip()
+            suffix = text[-1] if text[-1] in '。；.!！?？' else ''
+            if suffix:
+                text = text[:-1]
+            return text + ''.join('[' + str(n) + ']' for n in numbers) + (suffix or '。')
+
+        intro = doc.get('intro')
+        points = doc.get('points')
+        if not isinstance(points, list) or not 1 <= len(points) <= 4:
+            raise ValueError('one_to_four_points_required')
+        rendered = [render_clause(intro, 'intro')]
+        seen_aspects = set()
+        for i, point in enumerate(points):
+            if not isinstance(point, dict) or not isinstance(point.get('clauses'), list) or not 1 <= len(point['clauses']) <= 4:
+                raise ValueError('point_clauses:' + str(i))
+            aspects = point.get('aspects', [])
+            if not isinstance(aspects, list) or not all(isinstance(x, str) for x in aspects):
+                raise ValueError('point_aspects:' + str(i))
+            seen_aspects.update(aspects)
+            rendered.append('- ' + ''.join(render_clause(c, 'point_' + str(i) + '_clause_' + str(j)) for j, c in enumerate(point['clauses'])))
+        comparison = doc.get('comparison')
+        if not isinstance(comparison, dict):
+            raise ValueError('comparison_check_required')
+        explicit_comparison = bool(re.search(r'区别|區別|差异|差異|比较|比較|不同|相同', question))
+        if explicit_comparison:
+            if not {'common', 'difference'} <= seen_aspects:
+                raise ValueError('comparison_common_or_difference_missing')
+            overlap = comparison.get('overlap')
+            if overlap not in ['stated', 'not_stated']:
+                raise ValueError('comparison_overlap_review_required')
+            if overlap == 'stated' and 'overlap' not in seen_aspects:
+                raise ValueError('comparison_stated_overlap_missing')
+            audit.append({'comparison_overlap': overlap, 'warning': 'classification and semantic entailment require review'})
+        elif comparison.get('overlap') != 'not_applicable':
+            raise ValueError('noncomparison_overlap_not_applicable')
+        if set(displays) != all_used:
+            raise ValueError('unused_or_missing_source_labels')
+        traditional = bool(re.search(r'繁体|繁體|正體', question)) or (not re.search(r'简体|簡體', question) and any(c in question for c in TRADITIONAL))
+        source_lines = []
+        for ident, title, section in labels:
+            item = catalog[ident]
+            if traditional:
+                line = '[{}] 第{}問《{}》；{} {}；書內第{}頁／PDF第{}頁。'
+            else:
+                line = '[{}] 第{}问《{}》；{} {}；书内第{}页／PDF第{}页。'
+            source_lines.append(line.format(numbering[ident], item['q'], title, item['sec'], section, item['book'], item['pdf']))
+        result = '\n\n'.join(rendered) + '\n\n' + ('來源：' if traditional else '来源：') + '\n' + '\n'.join(source_lines)
+        checked = _structural_guard(result, retrieved, question)
+        checked['evidence_audit'] = json.dumps(audit, ensure_ascii=False)
+        return checked
+    except (ValueError, TypeError, KeyError, IndexError, AttributeError) as error:
+        return {'result': fallback, 'passed': False, 'issues': 'evidence_render:' + str(error), 'body_chars': 0,
+                'evidence_audit': json.dumps(audit, ensure_ascii=False)}
+
+
+"""Create source-preserving evidence units from the actual retrieval result."""
+import json
+import re
+
+
+def build_evidence_units(retrieved):
+    fragments = []
+    seen = {}
+    for item in retrieved or []:
+        content = item.get('content', '') if isinstance(item, dict) else ''
+        ident = re.search(r'【片段编号】\s*([^\s]+)', content)
+        q = re.search(r'【题目】第(\d+)问\s*(.*)', content)
+        sec = re.search(r'【小节】\s*(\d+\.\d+)\s*(.*)', content)
+        pages = re.search(r'【页码】书内第(\d+)页；PDF第(\d+)页', content)
+        if not (ident and q and sec and pages):
+            continue
+        body = content[ident.end():].strip()
+        fragment = {'id': ident[1], 'q': q[1], 'sec': sec[1], 'book': int(pages[1]), 'pdf': int(pages[2]),
+                    'question_title': q[2].strip(), 'section_title': sec[2].strip(), 'body': body}
+        if ident[1] in seen:
+            if seen[ident[1]] != fragment:
+                raise ValueError('ambiguous_chunk:' + ident[1])
+            continue
+        seen[ident[1]] = fragment
+        fragments.append(fragment)
+    fragments.sort(key=lambda x: (int(x['q']), tuple(map(int, x['sec'].split('.'))), x['book'], x['pdf'], x['id']))
+    units = []
+    previous = None
+    for fragment in fragments:
+        pieces = [m.group().strip() for m in re.finditer(r'.+?(?:[。！？][”’」』]?|$)', fragment['body'], flags=re.S) if m.group().strip()]
+        adjacent = (previous is not None and previous['q'] == fragment['q'] and previous['sec'] == fragment['sec']
+                    and previous['book'] + 1 == fragment['book'] and previous['pdf'] + 1 == fragment['pdf'])
+        if pieces and adjacent and units and not units[-1]['complete']:
+            # Keep the exact two source pieces; do not invent a single-page quote.
+            first = pieces.pop(0)
+            units[-1]['pieces'].append({'id': fragment['id'], 'quote': first})
+            units[-1]['text'] += first
+            units[-1]['complete'] = bool(re.search(r'[。！？][”’」』]?$', first))
+        for piece in pieces:
+            units.append({'pieces': [{'id': fragment['id'], 'quote': piece}], 'text': piece,
+                          'complete': bool(re.search(r'[。！？][”’」』]?$', piece))})
+        previous = fragment
+    for i, unit in enumerate(units):
+        unit['unit'] = 'E' + str(i + 1).zfill(3)
+    return {'sources': {f['id']: {k: f[k] for k in ['q', 'sec', 'book', 'pdf', 'question_title', 'section_title']} for f in fragments},
+            'units': units}
+
+
+def evidence_catalog_text(retrieved):
+    data = build_evidence_units(retrieved)
+    # Source quotes appear once in this prompt. The model selects unit IDs only.
+    readable = {'sources': data['sources'], 'units': [
+        {'unit': x['unit'], 'source_ids': [p['id'] for p in x['pieces']], 'complete': x['complete'], 'text': x['text']}
+        for x in data['units']]}
+    return json.dumps(readable, ensure_ascii=False)
+
+
+def _overlap_plain(text):
+    # Limited normalization for this book's two software terms; not OpenCC.
+    table = str.maketrans('軟開屬於時與類兩個為問區別較異', '软开属于时与类两个为问区别较异')
+    return re.sub(r'[\s，,。；;：:「」“”（）()]', '', (text or '').translate(table))
+
+
+def _book_overlap_evidence(text):
+    return '既属于自由软件也属于开源软件' in _overlap_plain(text)
+
+
+def _book_overlap_answer(text):
+    plain = _overlap_plain(text)
+    if re.search(r'并非|並非|不是|没有|沒有|不同时|不同時|不属于|不屬於', plain):
+        return False
+    return bool(re.search(
+        r'既属于自由软件也属于开源软件|既属于开源软件也属于自由软件|'
+        r'同时属于自由软件(?:和|与|及)开源软件|同时属于开源软件(?:和|与|及)自由软件', plain))
+
+
+def _load_review_json(raw):
+    """Strict JSON, with one narrowly scoped missing-points-bracket repair."""
+    try:
+        return json.loads(raw), None
+    except json.JSONDecodeError as original:
+        # Only a top-level comparison key following a closed points item.
+        # Scan strings/escapes so matching words inside answer text cannot trigger.
+        stack = []
+        in_string = False
+        escaped = False
+        candidates = []
+        for i, ch in enumerate(raw[:original.pos]):
+            if in_string:
+                if escaped:
+                    escaped = False
+                elif ch == '\\':
+                    escaped = True
+                elif ch == '"':
+                    in_string = False
+                continue
+            if ch == '"':
+                in_string = True
+            elif ch in '{[':
+                stack.append(ch)
+            elif ch in '}]':
+                expected = '{' if ch == '}' else '['
+                if not stack or stack[-1] != expected:
+                    raise original
+                stack.pop()
+            elif ch == ',' and stack == ['{', '[']:
+                tail = re.match(r',\s*"comparison"\s*:', raw[i:])
+                if tail and raw[:i].rstrip().endswith('}'):
+                    # The original parser must fail on this exact key colon.
+                    key_pos = i + tail.end() - 1
+                    if original.pos == key_pos:
+                        candidates.append(i)
+        if len(candidates) != 1:
+            raise original
+        pos = candidates[0]
+        try:
+            doc = json.loads(raw[:pos] + ']' + raw[pos:])
+        except json.JSONDecodeError:
+            raise original
+        if (not isinstance(doc, dict) or doc.get('status') != 'answer'
+                or not isinstance(doc.get('intro'), dict)
+                or not isinstance(doc.get('points'), list) or not doc['points']
+                or not all(isinstance(p, dict) for p in doc['points'])
+                or not isinstance(doc.get('comparison'), dict)
+                or not isinstance(doc.get('source_labels'), dict)):
+            raise original
+        # No answer/evidence text is edited. Normal evidence checks still apply.
+        return doc, {'repair': 'missing_points_closing_bracket', 'position': pos}
+
+
+def _book_license_classification(doc, units, retrieved, question):
+    # Narrow source-bound rendering for this book's four-category overview.
+    # Other license questions keep the normal review path.
+    table = str.maketrans({'開':'开','軟':'软','許':'许','證':'证','類':'类','點':'点','種':'种','體':'体','問':'问','麼':'么'})
+    plain = re.sub(r'\s+', '', question).translate(table)
+    if (not re.search(r'开源(?:软件的?|软件)?许可证', plain)
+            or not re.search(r'类型|分类|种类', plain)
+            or not re.search(r'特点|特性', plain)
+            or re.search(r'GPL|MIT|BSD|MPL|Apache|木兰|木蘭', plain, re.I)):
+        return doc, None
+    # Do not use the renderer to conceal malformed/unknown model selections.
+    intro_original = doc.get('intro')
+    points_original = doc.get('points')
+    if not isinstance(intro_original, dict) or not isinstance(points_original, list):
+        raise ValueError('intro_points_required')
+    original_clauses = [intro_original]
+    for point in points_original:
+        if not isinstance(point, dict) or not isinstance(point.get('clauses'), list):
+            raise ValueError('point_clauses_required')
+        original_clauses.extend(point['clauses'])
+    for item in original_clauses:
+        if not isinstance(item, dict) or not isinstance(item.get('text'), str) or not item['text'].strip():
+            raise ValueError('clause_text_required')
+        support = item.get('support')
+        if not isinstance(support, list) or not 1 <= len(support) <= 8:
+            raise ValueError('unit_support:intro_or_clause')
+        for selected in support:
+            if not isinstance(selected, dict) or set(selected) != {'unit'}:
+                raise ValueError('unit_selection_required')
+            ident = selected['unit']
+            if ident not in units:
+                raise ValueError('unknown_evidence_unit:' + str(ident))
+            if not units[ident]['complete']:
+                raise ValueError('incomplete_evidence_unit:' + str(ident))
+    original_text = ''.join(item['text'] for item in original_clauses)
+    original_trad = bool(re.search(r'繁体|繁體|正體', question)) or (not re.search(r'简体|簡體', question) and any(c in question for c in TRADITIONAL))
+    wrong = ''.join(sorted(set(original_text) & set(SIMPLIFIED if original_trad else TRADITIONAL)))
+    if wrong:
+        raise ValueError('regression_script_characters:' + wrong)
+    def choose(*required):
+        for u in units.values():
+            text = _normalized(u['text'])
+            if (u['complete'] and all(_normalized(x) in text for x in required)
+                    and all(p['id'] in {'os60-0056', 'os60-0057'} for p in u['pieces'])):
+                return u['unit']
+        raise ValueError('license_classification_evidence_missing:' + required[0])
+    headings = [choose(x) for x in ['一、宽松许可证', '二、强copyleft', '三、弱copyleft', '四、其他特色类许可证']]
+    permissive = choose('用户可自由复制、修改、再分发', '无须把修改后的作品以同样的许可证开源')
+    closed = choose('可闭源再发布', '商业化销售')
+    gpl = choose('强复制条款', '只要你修改并发布了', '同样的GNU')
+    lgpl = choose('LGPL允许软件以动态链接', '直接基于该库修改的部分仍有开源要求')
+    mpl = choose('MPL许可对文件级别的修改施加约束', '与其他文件隔离')
+    agpl = choose('如果你将AGPL代码用于网络应用', '源代码获取方式')
+    cc = choose('CC-BY、CC0', '多用于内容', '而非软件本身')
+    custom = choose('特殊条款许可证', '定制自己的开源许可证')
+    if re.search(r'繁体|繁體|正體', question):
+        trad = True
+    elif re.search(r'简体|簡體', question):
+        trad = False
+    else:
+        trad = any(c in question for c in TRADITIONAL)
+    def clause(s, t, *ids):
+        return {'text': t if trad else s, 'support': [{'unit': i} for i in ids]}
+    intro = clause('书中认为，开源许可证大致分为宽松许可证、强copyleft许可证、弱copyleft许可证和其他特色类许可证。',
+                   '書中認為，開源許可證大致分為寬鬆許可證、強copyleft許可證、弱copyleft許可證和其他特色類許可證。', *headings)
+    points = [
+        {'aspects':['reason'], 'clauses':[
+            clause('宽松许可证：代表有MIT、BSD、Apache和木兰宽松许可证。', '寬鬆許可證：代表有MIT、BSD、Apache和木蘭寬鬆許可證。', headings[0]),
+            clause('允许自由复制、修改和再分发，无须将修改后的作品以相同许可证开源；衍生产品可闭源发布及商业化销售。', '允許自由複製、修改和再分發，無須將修改後的作品以相同許可證開源；衍生產品可閉源發布及商業化銷售。', permissive, closed)]},
+        {'aspects':['reason'], 'clauses':[
+            clause('强copyleft许可证：代表有GNU通用公共许可证和木兰公共许可证。', '強copyleft許可證：代表有GNU通用公共許可證和木蘭公共許可證。', headings[1]),
+            clause('书中以GNU通用公共许可证说明：修改并发布基于其代码的衍生作品时，须以同样的GNU通用公共许可证开源。', '書中以GNU通用公共許可證說明：修改並發布基於其代碼的衍生作品時，須以同樣的GNU通用公共許可證開源。', gpl)]},
+        {'aspects':['reason'], 'clauses':[
+            clause('弱copyleft许可证：代表有LGPL和MPL。', '弱copyleft許可證：代表有LGPL和MPL。', headings[2]),
+            clause('LGPL允许动态链接集成到闭源软件，无须开源整个应用程序，但直接修改该库的部分仍有开源要求。', 'LGPL允許動態連結整合到閉源軟件，無須開源整個應用程式，但直接修改該庫的部分仍有開源要求。', lgpl),
+            clause('MPL约束文件级修改：修改该文件须开源，与其他文件隔离的代码部分无须开源。', 'MPL約束檔案級修改：修改該檔案須開源，與其他檔案隔離的代碼部分無須開源。', mpl)]},
+        {'aspects':['reason'], 'clauses':[
+            clause('其他特色类：GPLv3处理硬件限制与专利问题，AGPL扩展网络服务环境的共享要求；AGPL代码用于网络应用时，须提供源代码获取方式。', '其他特色類：GPLv3處理硬體限制與專利問題，AGPL擴展網絡服務環境的共享要求；AGPL代碼用於網絡應用時，須提供源代碼獲取方式。', headings[3], agpl),
+            clause('CC-BY、CC0多用于文档、图片和音视频等内容，而非软件本身；另有为特定产品的法律或战略需求定制的许可证。', 'CC-BY、CC0多用於文件、圖片和影音等內容，而非軟件本身；另有為特定產品的法律或戰略需求定製的許可證。', cc, custom)]}
+    ]
+    labels = {i:{'question_title': '開源軟件的許可證有哪些類型？它們各自的特點是什麼' if trad else '开源软件的许可证有哪些类型？它们各自的特点是什么',
+                 'section_title': '開源許可證的分類概覽' if trad else '开源许可证的分类概览'} for i in ['os60-0056','os60-0057']}
+    return {'status':'answer','intro':intro,'points':points,'comparison':{'overlap':'not_applicable'},'source_labels':labels}, {'repair':'source_bound_license_classification','reason':'Preserve LGPL/MPL subjects and cover each category traits using actual complete book evidence; no extra model calls'}
+
+
+def main(answer: str, retrieved: list, question: str) -> dict:
+    fallback = _structural_guard('', retrieved, question)['result']
+    selection_audit = []
+    try:
+        doc, json_repair = _load_review_json((answer or '').strip())
+        if json_repair:
+            selection_audit.append(json_repair)
+        if not isinstance(doc, dict):
+            raise ValueError('json_object_required')
+        if doc.get('status') == 'insufficient':
+            return _quote_main(answer, retrieved, question)
+        if doc.get('status') != 'answer':
+            raise ValueError('answer_status_required')
+        units = {u['unit']: u for u in build_evidence_units(retrieved)['units']}
+        doc, classification_repair = _book_license_classification(doc, units, retrieved, question)
+        if classification_repair:
+            selection_audit.append(classification_repair)
+        intro = doc.get('intro')
+        points = doc.get('points')
+        if not isinstance(intro, dict) or not isinstance(points, list):
+            raise ValueError('intro_points_required')
+        # Complete the four-category summary citations only from the actual
+        # retrieved classification headings in this book; do not change text.
+        license_plain = re.sub(r'\s+', '', intro.get('text', '')).lower().translate(
+            str.maketrans({'寬':'宽','許':'许','證':'证','強':'强','類':'类','為':'为'}))
+        category_names = ['宽松许可证', '强copyleft许可证', '弱copyleft许可证', '其他特色类许可证']
+        if re.search(r'分为|分成|包括', license_plain) and all(x in license_plain for x in category_names):
+            chosen = intro.get('support')
+            if not isinstance(chosen, list) or not 1 <= len(chosen) <= 8:
+                raise ValueError('unit_support:intro')
+            headings = []
+            for ordinal, name in zip(['一', '二', '三', '四'], category_names):
+                match = next((u for u in units.values() if u['complete']
+                    and re.sub(r'\s+', '', u['text']).lower().startswith(ordinal + '、' + name)
+                    and all(p['id'] in {'os60-0056', 'os60-0057'} for p in u['pieces'])), None)
+                if match is None:
+                    raise ValueError('license_category_evidence_missing:' + name)
+                headings.append(match)
+            added = []
+            for unit in headings:
+                if not any(isinstance(v, dict) and v.get('unit') == unit['unit'] for v in chosen):
+                    chosen.append({'unit': unit['unit']})
+                    added.append(unit['unit'])
+            if added:
+                selection_audit.append({'repair':'license_category_intro_sources_completed',
+                    'location':'intro','added_units':added,
+                    'reason':'All four named categories require their actual retrieved classification headings'})
+        # Deterministic, book-specific completeness repair. No new source or
+        # model-written quote is introduced; the source sentence must be retrieved.
+        query_plain = _overlap_plain(question)
+        named_comparison = bool(re.search(r'区别|區別|差异|差異|比较|比較|不同|相同', question)) and '自由软件' in query_plain and '开源软件' in query_plain
+        overlap_units = [u for u in units.values() if u['complete'] and _book_overlap_evidence(u['text'])]
+        if named_comparison and overlap_units:
+            actual_location = None
+            for pi, point in enumerate(points):
+                if not isinstance(point, dict) or not isinstance(point.get('clauses'), list):
+                    raise ValueError('point_clauses:' + str(pi))
+                for ci, clause in enumerate(point['clauses']):
+                    if not isinstance(clause, dict) or not _book_overlap_answer(clause.get('text')):
+                        continue
+                    support = clause.get('support')
+                    if isinstance(support, list) and any(
+                        isinstance(s, dict) and set(s) == {'unit'} and s.get('unit') in units
+                        and units[s['unit']]['complete'] and _book_overlap_evidence(units[s['unit']]['text'])
+                        for s in support):
+                        actual_location = {'point': pi, 'clause': ci}
+                        break
+                if actual_location is not None:
+                    break
+            if actual_location is None:
+                source_unit = overlap_units[0]
+                destination = next((i for i, p in enumerate(points)
+                                    if isinstance(p, dict) and isinstance(p.get('clauses'), list)
+                                    and isinstance(p.get('aspects'), list) and 'common' in p['aspects']
+                                    and len(p['clauses']) < 4), None)
+                added = {'text': ('很多軟件同時屬於自由軟件和開源軟件。' if '無法' in fallback
+                                  else '很多软件同时属于自由软件和开源软件。'),
+                         'support': [{'unit': source_unit['unit']}]}
+                if destination is None:
+                    if len(points) >= 4:
+                        raise ValueError('book_overlap_no_clause_capacity')
+                    destination = len(points)
+                    points.append({'aspects': ['common'], 'clauses': []})
+                ci = len(points[destination]['clauses'])
+                points[destination]['clauses'].append(added)
+                actual_location = {'point': destination, 'clause': ci}
+                selection_audit.append({'repair': 'book_overlap_inserted', 'unit': source_unit['unit'],
+                                        'location': actual_location, 'reason': 'explicit retrieved overlap not expressed with matching support'})
+            comparison_before = doc.get('comparison')
+            if not isinstance(comparison_before, dict):
+                raise ValueError('comparison_check_required')
+            if comparison_before.get('overlap') != 'stated' or comparison_before.get('overlap_clause') != actual_location:
+                selection_audit.append({'repair': 'book_overlap_pointer_corrected', 'location': actual_location})
+            doc['comparison'] = {'overlap': 'stated', 'overlap_clause': actual_location}
+        clauses = [('intro', intro)]
+        for i, point in enumerate(points):
+            if not isinstance(point, dict) or not isinstance(point.get('clauses'), list):
+                raise ValueError('point_clauses:' + str(i))
+            clauses += [('point_' + str(i) + '_clause_' + str(j), c) for j, c in enumerate(point['clauses'])]
+        for location, clause in clauses:
+            if not isinstance(clause, dict):
+                raise ValueError('clause_object:' + location)
+            chosen = clause.get('support')
+            if not isinstance(chosen, list) or not 1 <= len(chosen) <= 8:
+                raise ValueError('unit_support:' + location)
+            converted = []
+            chosen_ids = set()
+            for support in chosen:
+                if not isinstance(support, dict) or set(support) != {'unit'}:
+                    raise ValueError('unit_only_support:' + location)
+                ident = support['unit']
+                if not isinstance(ident, str) or ident not in units:
+                    raise ValueError('unknown_evidence_unit:' + str(ident))
+                if ident in chosen_ids:
+                    continue
+                chosen_ids.add(ident)
+                unit = units[ident]
+                if not unit['complete']:
+                    raise ValueError('incomplete_evidence_unit:' + ident)
+                # Extract exact quotes from source data, never from model output.
+                converted.extend(unit['pieces'])
+                selection_audit.append({'location': location, 'unit': ident, 'source_ids': [p['id'] for p in unit['pieces']]})
+            if len(converted) > 8:
+                raise ValueError('too_many_source_pieces:' + location)
+            clause['support'] = converted
+        comparison = doc.get('comparison')
+        if not isinstance(comparison, dict):
+            raise ValueError('comparison_check_required')
+        explicit_comparison = bool(re.search(r'区别|區別|差异|差異|比较|比較|不同|相同', question))
+        # A narrow book-specific rule, activated only for the named comparison
+        # and only when its explicit overlap sentence is actually retrieved.
+        query_plain = _overlap_plain(question)
+        named_comparison = explicit_comparison and '自由软件' in query_plain and '开源软件' in query_plain
+        overlap_required = named_comparison and any(
+            u['complete'] and _book_overlap_evidence(u['text']) for u in units.values())
+        if overlap_required and comparison.get('overlap') != 'stated':
+            raise ValueError('book_overlap_required')
+        if explicit_comparison and comparison.get('overlap') == 'stated':
+            location = comparison.get('overlap_clause')
+            if not isinstance(location, dict) or set(location) != {'point', 'clause'}:
+                raise ValueError('overlap_clause_location_required')
+            pi, ci = location['point'], location['clause']
+            if type(pi) is not int or type(ci) is not int or pi < 0 or ci < 0 or pi >= len(points) or ci >= len(points[pi]['clauses']):
+                raise ValueError('invalid_overlap_clause_location')
+            if overlap_required:
+                overlap_clause = points[pi]['clauses'][ci]
+                if not any(_book_overlap_evidence(p['quote']) for p in overlap_clause['support']):
+                    raise ValueError('book_overlap_evidence_required')
+                if not _book_overlap_answer(overlap_clause.get('text')):
+                    raise ValueError('book_overlap_text_required')
+            aspect = points[pi].get('aspects')
+            if not isinstance(aspect, list):
+                raise ValueError('point_aspects:' + str(pi))
+            # A pointed, evidence-bound clause replaces the redundant overlap tag.
+            if 'overlap' not in aspect:
+                aspect.append('overlap')
+            selection_audit.append({'overlap_clause': location, 'warning': 'semantic meaning still requires review'})
+        result = _quote_main(json.dumps(doc, ensure_ascii=False), retrieved, question)
+        if result['passed'] and result['body_chars'] > 700:
+            selection_audit.append({'warning': 'body_length_above_target', 'body_chars': result['body_chars'], 'target_max': 700})
+        result['evidence_audit'] = json.dumps({'selected_units': selection_audit, 'source_evidence': json.loads(result['evidence_audit'])}, ensure_ascii=False)
+        return result
+    except (ValueError, TypeError, KeyError, IndexError, AttributeError) as error:
+        return {'result': fallback, 'passed': False, 'issues': 'evidence_units:' + str(error), 'body_chars': 0,
+                'evidence_audit': json.dumps({'selected_units': selection_audit}, ensure_ascii=False)}

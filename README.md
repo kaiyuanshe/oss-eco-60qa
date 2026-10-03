@@ -1,5 +1,38 @@
 # 开源生态60问
 
-项目网站：https://oss-eco-60qa.netlify.app/
+《解码开源：开源生态60问》阅读网站与带来源问答。原书作者：庄表伟。
 
-网站源码、资料与 Dify 工作流将在后续提交中归档。
+正式入口：https://oss-eco-60qa.netlify.app/
+思维导图：https://mapify.so/share-link/3X7HCA3OGN
+
+## 目录
+
+- `web/`：2026-10-03已部署的简繁静态网页，包含60问正文和图表。
+- `dify/workflow.yml`：用户2026-10-03导出的最新工作流；`nodes/`和`prompts/`是其中代码与提示词的可读副本。
+- `full-library/`：网站正文结构数据、60问Markdown与图表。
+- `output/opensource60-clean/`：问答使用的550个清洗片段、导入文本与页码映射。
+- `full-work/`：历史正文/图表提取与网站导出脚本。
+- `project_sources/`：用户提供的原书PDF和思维导图图片。
+- `output/20261003-json-citation-fix/`：当前校验节点回归测试与必要样例。
+
+## 部署
+
+将`web`文件夹上传到现有Netlify项目`oss-eco-60qa`的Deploys页面；必须同时包含index.html和zh-hant.html。无需新建v2项目。
+
+Dify导入workflow.yml后，需自行配置供应商凭据与知识库，并将检索节点绑定到导入knowledge-import.txt的知识库。DSL中的知识库ID属于原工作区，不能假设在另一个工作区可用。网页的问答入口目前连接已发布Gh62GiucZvMTdflH应用；迁移后须修改两页外链和iframe。
+
+## 验证
+
+Python 3环境安装requirements.txt依赖，然后运行：
+
+```sh
+python output/20261003-json-citation-fix/test_classification.py
+```
+
+48项本地检查及代表性线上题目已通过。原网址已核实接入新版问答。手机反馈：排版、全文阅读、问答三项暂看正常，简繁搜索仍有问题，尚未关闭。此次未完成全部60问语义验收或长期稳定性证明。
+
+## 数据与维护说明
+
+网站正文数据与问答清洗片段来自同一原书，但目前是不同生成产物，尚未统一为一个自动构建数据管线。历史export_site.py不直接重建当前简繁成品；本次发布以web两页为准。原书内容、编辑摘要和图示说明的标注保留在网页中。
+
+软件许可证及原书资料的再分发许可应沿用仓库与权利人的已有约定；本包不新增许可授权。账单、凭据与完整聊天/工作区日志不在公开归档范围。
