@@ -1,0 +1,11 @@
+{
+"97": [
+"表20-2 企业混合策略分析（图片表格人工视觉转写，保留原书历史表述）\n公司：Elastic（Elastic/Nx）\n模式类型：开源核心+限制性许可\n开源许可（历史）：2010～2020年：Apache 2.0许可证；2021年：转为Elastic许可证v1+SSPL；2024年：改为Elastic许可证v2+SSPL，新增AGPL选项\n专有许可：Elastic许可证（企业功能）；SSPL（源可用）\n开源/专有部分划分：开源版本提供基础搜索功能，企业版（安全、监控、高级分析等）闭源\n许可证演变及市场/社区反应：2021年变更后，AWS推出OpenSearch开源分支；社区批评Elastic“弃开源”；OSI称其新许可证为“伪开源”。Elastic称此举为对抗AWS的无偿服务；2024年增列AGPL重回OSI许可，力图恢复“开源”称谓，但开发者普遍对其动机持怀疑态度",
+"表20-2 企业混合策略分析（续，同页）\n公司：MongoDB\n模式类型：开源核心+双重许可\n开源许可（历史）：原：AGPLv3；2018年：转为SSPL（源可用）\n专有许可：企业版（附加模块、安全特性等）闭源；SSPL（社区版）\n开源/专有部分划分：社区版（核心数据库、驱动等）采用AGPL/SSPL；企业版为闭源附加功能\n许可证演变及市场/社区反应：2018年发布SSPL，要求提供MongoDB服务的企业开源其服务代码。社区认为SSPL非开源（OSI未认可），MongoDB在2019年主动从OSI撤回SSPL审核申请。市场上，AWS等推出兼容版（如DocumentDB），社区对SSPL争议颇多，但MongoDB强调此举为保护投资",
+"表20-2 企业混合策略分析（续，同页）\n公司：GitLab\n模式类型：开源核心+企业版（OpenCore）\n开源许可（历史）：CE：MIT许可证（始终开源）；EE：原为类似开源协议，2014年改为商业许可\n专有许可：EE专有许可，需订阅使用\n开源/专有部分划分：CE（社区版）功能完备，MIT开源；EE（企业版）加入高级管理、认证等功能需付费\n许可证演变及市场/社区反应：2013年引入EE后，2014年将EE改为商业许可，以减少混淆。GitLab表示社区版功能充足且持续迭代。社区普遍接受此安排，因为CE不受限制且GitLab坚持开源开发，GitLab已合并代码库，主要通过功能差异和许可证来区分CE/EE"
+],
+"98": [
+"表20-2 企业混合策略分析（续表；图片表格人工视觉转写，保留原书历史表述）\n公司：Confluent\n模式类型：开源基础+限制性许可\n开源许可（历史）：Apache 2.0许可证（Kafka核心始终开源）；2018年：部分组件（REST Proxy、Schema Registry、KSQL、连接器等）改为Confluent社区许可证\n专有许可：Confluent社区许可证（限制性源可用）；Confluent企业版\n开源/专有部分划分：Kafka核心组件仍然是Apache 2.0许可证；增强组件（连接器、管理工具等）以Confluent许可证发布\n许可证演变及市场/社区反应：2018年将非核心组件换为Confluent社区许可证，禁止将其用于竞品SaaS。社区反应不一：Kafka核心不受影响，但一些用户担心限制性许可证的不透明和锁定风险。Confluent称此举可持续投入免费代码并保护业务；批评者Joyent CTO Bryan Cantrill认为，这会导致云厂商另起炉灶，不利于生态",
+"表20-2 企业混合策略分析（续表，同页）\n公司：Redis Labs\n模式类型：开源基础+限制性许可\n开源许可（历史）：核心：BSD 3-Clause许可证（始终开源）；模块：原为Apache 2.0许可证，2018年先改为Apache + Commons Clause，后改为RSAL（源可用）；2025年5月Redis 8重新宣布以AGPLv3开源\n专有许可：Redis Labs专有模块许可证（Commons Clause/RSAL）\n开源/专有部分划分：Redis核心功能（缓存、主数据结构等）保持BSD开源；Redis Labs开发的高级模块（RediSearch、RedisGraph等）在Commons Clause/RSAL许可证下限制使用\n许可证演变及市场/社区反应：2018年将部分模块许可证从AGPL/Apache许可证转为Commons Clause许可证，后优化为自创的RSAL。Redis强调核心版完全开源，仅模块受限。社区初期对Commons Clause许可证表示担忧，但多数接受了过渡到RSAL的解释，认为新许可证可保持多数开放性。其他厂商（如MongoDB、Confluent）也随后调整许可证，说明业界面对云服务竞争的一致性趋势"
+]
+}

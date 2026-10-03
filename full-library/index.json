@@ -1,0 +1,2212 @@
+{
+  "version": 2,
+  "question_count": 60,
+  "source_pdf_sha256": "d02064ca9538a7ee8bd33735ba9229de0322b5f4b0bd8343d7b88ec71c738567",
+  "questions": [
+    {
+      "id": "q001",
+      "number": 1,
+      "title": "开源软件与自由软件有何区别",
+      "chapter": "开源的定义、本质与理念",
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        1,
+        4
+      ],
+      "pdf_pages": [
+        19,
+        22
+      ],
+      "url_path": "/questions/q001/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "summary": "本问回顾自由软件运动的起源与四大自由，介绍开源定义，并比较自由软件与开源软件在源代码开放、社区协作、用户范围及价值取向上的共同点与差异。",
+      "keywords": [
+        "自由软件",
+        "开源定义",
+        "GNU",
+        "四大自由",
+        "OSI",
+        "数字公共产品"
+      ],
+      "aliases": [
+        "自由软件和开源软件有什么区别？",
+        "开源是否只是公开源代码？",
+        "自由软件的四大自由是什么？"
+      ],
+      "file": "q001.md"
+    },
+    {
+      "id": "q002",
+      "number": 2,
+      "title": "开源运动是如何起源的",
+      "chapter": "开源的定义、本质与理念",
+      "summary": "本问围绕“开源运动是如何起源的”展开，依次讨论Linux 内核的诞生；《大教堂与集市》：最早的观察与总结；浏览器大战与Netscape Navigator 的开源；“Open Source”一词的提出与OSI 的成立等内容。",
+      "keywords": [
+        "开源的定义、本质与理念",
+        "Linux 内核的诞生",
+        "《大教堂与集市》：最早的观察与总结",
+        "浏览器大战与Netscape Navigator 的开源",
+        "“Open Source”一词的提出与OSI 的成立",
+        "从互联网泡沫到Linux 操作系统公司上市"
+      ],
+      "aliases": [
+        "开源运动是如何起源的？",
+        "请介绍Linux 内核的诞生。",
+        "请介绍《大教堂与集市》：最早的观察与总结。",
+        "请介绍浏览器大战与Netscape Navigator 的开源。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        4,
+        7
+      ],
+      "pdf_pages": [
+        22,
+        25
+      ],
+      "url_path": "/questions/q002/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q002.md"
+    },
+    {
+      "id": "q003",
+      "number": 3,
+      "title": "开源软件目前的发展状况如何",
+      "chapter": "开源的定义、本质与理念",
+      "summary": "本问围绕“开源软件目前的发展状况如何”展开，依次讨论开源在全球范围内的成功；全球开源进入成熟化平台期，AI 开源成为新增长极；开源在中国的发展状况；中国开源的挑战与不足。",
+      "keywords": [
+        "开源的定义、本质与理念",
+        "开源在全球范围内的成功",
+        "全球开源进入成熟化平台期，AI 开源成为新增长极",
+        "开源在中国的发展状况",
+        "中国开源的挑战与不足"
+      ],
+      "aliases": [
+        "开源软件目前的发展状况如何？",
+        "请介绍开源在全球范围内的成功。",
+        "请介绍全球开源进入成熟化平台期，AI 开源成为新增长极。",
+        "请介绍开源在中国的发展状况。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        7,
+        16
+      ],
+      "pdf_pages": [
+        25,
+        34
+      ],
+      "url_path": "/questions/q003/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q003.md"
+    },
+    {
+      "id": "q004",
+      "number": 4,
+      "title": "为什么开源软件比专有软件更有吸引力",
+      "chapter": "开源的定义、本质与理念",
+      "summary": "本问围绕“为什么开源软件比专有软件更有吸引力”展开，依次讨论成本优势；灵活定制；安全可靠；社区创新等内容。",
+      "keywords": [
+        "开源的定义、本质与理念",
+        "成本优势",
+        "灵活定制",
+        "安全可靠",
+        "社区创新",
+        "有利于人员招聘"
+      ],
+      "aliases": [
+        "为什么开源软件比专有软件更有吸引力？",
+        "请介绍成本优势。",
+        "请介绍灵活定制。",
+        "请介绍安全可靠。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        16,
+        18
+      ],
+      "pdf_pages": [
+        34,
+        36
+      ],
+      "url_path": "/questions/q004/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q004.md"
+    },
+    {
+      "id": "q005",
+      "number": 5,
+      "title": "开源的核心价值观是什么",
+      "chapter": "开源的定义、本质与理念",
+      "summary": "本问围绕“开源的核心价值观是什么”展开，依次讨论开源项目的本质；开源生态的本质；开源从何而来；开源的价值等内容。",
+      "keywords": [
+        "开源的定义、本质与理念",
+        "开源项目的本质",
+        "开源生态的本质",
+        "开源从何而来",
+        "开源的价值",
+        "开源的核心价值观"
+      ],
+      "aliases": [
+        "开源的核心价值观是什么？",
+        "请介绍开源项目的本质。",
+        "请介绍开源生态的本质。",
+        "请介绍开源从何而来。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        18,
+        21
+      ],
+      "pdf_pages": [
+        36,
+        39
+      ],
+      "url_path": "/questions/q005/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q005.md"
+    },
+    {
+      "id": "q006",
+      "number": 6,
+      "title": "开源软件的许可证有哪些类型？它们各自的特点是什么",
+      "chapter": "开源的定义、本质与理念",
+      "summary": "本问围绕“开源软件的许可证有哪些类型？它们各自的特点是什么”展开，依次讨论许可证及许可证的各种类型；开源许可证的重要性；开源许可证的分类概览；常见开源许可证的特征。",
+      "keywords": [
+        "开源的定义、本质与理念",
+        "许可证及许可证的各种类型",
+        "开源许可证的重要性",
+        "开源许可证的分类概览",
+        "常见开源许可证的特征"
+      ],
+      "aliases": [
+        "开源软件的许可证有哪些类型？它们各自的特点是什么？",
+        "请介绍许可证及许可证的各种类型。",
+        "请介绍开源许可证的重要性。",
+        "请介绍开源许可证的分类概览。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        21,
+        25
+      ],
+      "pdf_pages": [
+        39,
+        43
+      ],
+      "url_path": "/questions/q006/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q006.md"
+    },
+    {
+      "id": "q007",
+      "number": 7,
+      "title": "选择开源许可证时需要考虑哪些因素",
+      "chapter": "开源的定义、本质与理念",
+      "summary": "本问围绕“选择开源许可证时需要考虑哪些因素”展开，依次讨论企业使用开源软件；企业参与外部开源社区；企业对外开源自身软件。",
+      "keywords": [
+        "开源的定义、本质与理念",
+        "企业使用开源软件",
+        "企业参与外部开源社区",
+        "企业对外开源自身软件"
+      ],
+      "aliases": [
+        "选择开源许可证时需要考虑哪些因素？",
+        "请介绍企业使用开源软件。",
+        "请介绍企业参与外部开源社区。",
+        "请介绍企业对外开源自身软件。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        25,
+        28
+      ],
+      "pdf_pages": [
+        43,
+        46
+      ],
+      "url_path": "/questions/q007/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q007.md"
+    },
+    {
+      "id": "q008",
+      "number": 8,
+      "title": "开源如何影响软件开发的方式和文化",
+      "chapter": "开源的定义、本质与理念",
+      "summary": "本问围绕“开源如何影响软件开发的方式和文化”展开，依次讨论从“大教堂”到“集市”：软件开发范式的转变；开源社区的实践原则：快速迭代与用户反馈；分布式开发与精英治理：多元化的贡献者结构；林纳斯法则：质量保障的独特逻辑等内容。",
+      "keywords": [
+        "开源的定义、本质与理念",
+        "从“大教堂”到“集市”：软件开发范式的转变",
+        "开源社区的实践原则：快速迭代与用户反馈",
+        "分布式开发与精英治理：多元化的贡献者结构",
+        "林纳斯法则：质量保障的独特逻辑",
+        "在线包管理工具：生态系统与再利用的繁荣",
+        "社交化编程与自动化工具：从协作到文化升级"
+      ],
+      "aliases": [
+        "开源如何影响软件开发的方式和文化？",
+        "请介绍从“大教堂”到“集市”：软件开发范式的转变。",
+        "请介绍开源社区的实践原则：快速迭代与用户反馈。",
+        "请介绍分布式开发与精英治理：多元化的贡献者结构。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        28,
+        31
+      ],
+      "pdf_pages": [
+        46,
+        49
+      ],
+      "url_path": "/questions/q008/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q008.md"
+    },
+    {
+      "id": "q009",
+      "number": 9,
+      "title": "开源人有哪些特点？如何与他们做朋友",
+      "chapter": "开源的定义、本质与理念",
+      "summary": "本问围绕“开源人有哪些特点？如何与他们做朋友”展开，依次讨论开源人的特点；与开源人做朋友。",
+      "keywords": [
+        "开源的定义、本质与理念",
+        "开源人的特点",
+        "与开源人做朋友"
+      ],
+      "aliases": [
+        "开源人有哪些特点？如何与他们做朋友？",
+        "请介绍开源人的特点。",
+        "请介绍与开源人做朋友。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        31,
+        35
+      ],
+      "pdf_pages": [
+        49,
+        53
+      ],
+      "url_path": "/questions/q009/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q009.md"
+    },
+    {
+      "id": "q010",
+      "number": 10,
+      "title": "开源生态系统包括哪些关键角色",
+      "chapter": "开源生态系统",
+      "summary": "本问围绕“开源生态系统包括哪些关键角色”展开，依次讨论从“个人”与“组织”维度分类；从“教育、学术与政策”视角扩展出的角色；角色之间的交互与多重身份。",
+      "keywords": [
+        "开源生态系统",
+        "从“个人”与“组织”维度分类",
+        "从“教育、学术与政策”视角扩展出的角色",
+        "角色之间的交互与多重身份"
+      ],
+      "aliases": [
+        "开源生态系统包括哪些关键角色？",
+        "请介绍从“个人”与“组织”维度分类。",
+        "请介绍从“教育、学术与政策”视角扩展出的角色。",
+        "请介绍角色之间的交互与多重身份。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        36,
+        40
+      ],
+      "pdf_pages": [
+        54,
+        58
+      ],
+      "url_path": "/questions/q010/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q010.md"
+    },
+    {
+      "id": "q011",
+      "number": 11,
+      "title": "开源基金会的角色定位是什么",
+      "chapter": "开源生态系统",
+      "summary": "本问围绕“开源基金会的角色定位是什么”展开，依次讨论开源基金会的角色定位；开源基金会的主要作用。",
+      "keywords": [
+        "开源生态系统",
+        "开源基金会的角色定位",
+        "开源基金会的主要作用"
+      ],
+      "aliases": [
+        "开源基金会的角色定位是什么？",
+        "请介绍开源基金会的角色定位。",
+        "请介绍开源基金会的主要作用。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        40,
+        42
+      ],
+      "pdf_pages": [
+        58,
+        60
+      ],
+      "url_path": "/questions/q011/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q011.md"
+    },
+    {
+      "id": "q012",
+      "number": 12,
+      "title": "如何理解开源项目的治理模式",
+      "chapter": "开源生态系统",
+      "summary": "本问围绕“如何理解开源项目的治理模式”展开，依次讨论开源项目治理模式的主要特征；主流治理模式的分类与特点；选择开源项目治理模式要考量的关键因素。",
+      "keywords": [
+        "开源生态系统",
+        "开源项目治理模式的主要特征",
+        "主流治理模式的分类与特点",
+        "选择开源项目治理模式要考量的关键因素"
+      ],
+      "aliases": [
+        "如何理解开源项目的治理模式？",
+        "请介绍开源项目治理模式的主要特征。",
+        "请介绍主流治理模式的分类与特点。",
+        "请介绍选择开源项目治理模式要考量的关键因素。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        43,
+        46
+      ],
+      "pdf_pages": [
+        61,
+        64
+      ],
+      "url_path": "/questions/q012/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q012.md"
+    },
+    {
+      "id": "q013",
+      "number": 13,
+      "title": "开源项目的生命周期是怎样的",
+      "chapter": "开源生态系统",
+      "summary": "本问围绕“开源项目的生命周期是怎样的”展开，依次讨论开源项目生命周期；阶段化策略。",
+      "keywords": [
+        "开源生态系统",
+        "开源项目生命周期",
+        "阶段化策略"
+      ],
+      "aliases": [
+        "开源项目的生命周期是怎样的？",
+        "请介绍开源项目生命周期。",
+        "请介绍阶段化策略。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        46,
+        50
+      ],
+      "pdf_pages": [
+        64,
+        68
+      ],
+      "url_path": "/questions/q013/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q013.md"
+    },
+    {
+      "id": "q014",
+      "number": 14,
+      "title": "什么是开源项目的健康指标",
+      "chapter": "开源生态系统",
+      "summary": "本问围绕“什么是开源项目的健康指标”展开，依次讨论开源项目健康度评估的主流框架；深入思考开源指标体系。",
+      "keywords": [
+        "开源生态系统",
+        "开源项目健康度评估的主流框架",
+        "深入思考开源指标体系"
+      ],
+      "aliases": [
+        "什么是开源项目的健康指标？",
+        "请介绍开源项目健康度评估的主流框架。",
+        "请介绍深入思考开源指标体系。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        50,
+        56
+      ],
+      "pdf_pages": [
+        68,
+        74
+      ],
+      "url_path": "/questions/q014/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q014.md"
+    },
+    {
+      "id": "q015",
+      "number": 15,
+      "title": "开源标准化在开源生态系统中的 价值是什么",
+      "chapter": "开源生态系统",
+      "summary": "本问围绕“开源标准化在开源生态系统中的 价值是什么”展开，依次讨论开源标准化的基本概念与发展历程；标准化在开源生态系统中的核心价值；标准化缺失导致开源项目失败的反面案例；标准化面临的挑战与未来发展。",
+      "keywords": [
+        "开源生态系统",
+        "开源标准化的基本概念与发展历程",
+        "标准化在开源生态系统中的核心价值",
+        "标准化缺失导致开源项目失败的反面案例",
+        "标准化面临的挑战与未来发展"
+      ],
+      "aliases": [
+        "开源标准化在开源生态系统中的 价值是什么？",
+        "请介绍开源标准化的基本概念与发展历程。",
+        "请介绍标准化在开源生态系统中的核心价值。",
+        "请介绍标准化缺失导致开源项目失败的反面案例。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        56,
+        61
+      ],
+      "pdf_pages": [
+        74,
+        79
+      ],
+      "url_path": "/questions/q015/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q015.md"
+    },
+    {
+      "id": "q016",
+      "number": 16,
+      "title": "开源项目如何实现全球化？面临哪些挑战",
+      "chapter": "开源生态系统",
+      "summary": "本问围绕“开源项目如何实现全球化？面临哪些挑战”展开，依次讨论开源全球化的4 层境界；开源全球化的未来趋势。",
+      "keywords": [
+        "开源生态系统",
+        "开源全球化的4 层境界",
+        "开源全球化的未来趋势"
+      ],
+      "aliases": [
+        "开源项目如何实现全球化？面临哪些挑战？",
+        "请介绍开源全球化的4 层境界。",
+        "请介绍开源全球化的未来趋势。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        61,
+        66
+      ],
+      "pdf_pages": [
+        79,
+        84
+      ],
+      "url_path": "/questions/q016/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q016.md"
+    },
+    {
+      "id": "q017",
+      "number": 17,
+      "title": "开源生态与开源供应链是什么关系",
+      "chapter": "开源生态系统",
+      "summary": "本问围绕“开源生态与开源供应链是什么关系”展开，依次讨论开源生态与开源供应链的结构关系；开源生态治理与开源供应链治理的区别。",
+      "keywords": [
+        "开源生态系统",
+        "开源生态与开源供应链的结构关系",
+        "开源生态治理与开源供应链治理的区别"
+      ],
+      "aliases": [
+        "开源生态与开源供应链是什么关系？",
+        "请介绍开源生态与开源供应链的结构关系。",
+        "请介绍开源生态治理与开源供应链治理的区别。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        66,
+        68
+      ],
+      "pdf_pages": [
+        84,
+        86
+      ],
+      "url_path": "/questions/q017/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q017.md"
+    },
+    {
+      "id": "q018",
+      "number": 18,
+      "title": "如何理解和防范开源生态风险与开源供应链风险",
+      "chapter": "开源生态系统",
+      "summary": "本问围绕“如何理解和防范开源生态风险与开源供应链风险”展开，依次讨论开源生态风险与开源供应链风险的区别；对开源供应链风险的理解；开源供应链的本质；企业内部的开源治理。",
+      "keywords": [
+        "开源生态系统",
+        "开源生态风险与开源供应链风险的区别",
+        "对开源供应链风险的理解",
+        "开源供应链的本质",
+        "企业内部的开源治理"
+      ],
+      "aliases": [
+        "如何理解和防范开源生态风险与开源供应链风险？",
+        "请介绍开源生态风险与开源供应链风险的区别。",
+        "请介绍对开源供应链风险的理解。",
+        "请介绍开源供应链的本质。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        68,
+        71
+      ],
+      "pdf_pages": [
+        86,
+        89
+      ],
+      "url_path": "/questions/q018/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q018.md"
+    },
+    {
+      "id": "q019",
+      "number": 19,
+      "title": "企业如何通过开源降低成本并提升效率",
+      "chapter": "开源商业模式",
+      "summary": "本问围绕“企业如何通过开源降低成本并提升效率”展开，依次讨论企业使用开源能够降低成本；企业使用开源能够提升效率；企业使用开源的最佳实践。",
+      "keywords": [
+        "开源商业模式",
+        "企业使用开源能够降低成本",
+        "企业使用开源能够提升效率",
+        "企业使用开源的最佳实践"
+      ],
+      "aliases": [
+        "企业如何通过开源降低成本并提升效率？",
+        "请介绍企业使用开源能够降低成本。",
+        "请介绍企业使用开源能够提升效率。",
+        "请介绍企业使用开源的最佳实践。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        72,
+        74
+      ],
+      "pdf_pages": [
+        90,
+        92
+      ],
+      "url_path": "/questions/q019/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q019.md"
+    },
+    {
+      "id": "q020",
+      "number": 20,
+      "title": "开源软件如何实现盈利",
+      "chapter": "开源商业模式",
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        74,
+        81
+      ],
+      "pdf_pages": [
+        92,
+        99
+      ],
+      "url_path": "/questions/q020/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "summary": "本问介绍支持与服务、云服务、广告、硬件、众筹捐赠、认证培训和混合模式等商业路径，比较各自的优缺点与适用场景，并讨论开放核心、双重许可及企业案例。",
+      "keywords": [
+        "盈利",
+        "商业模式",
+        "订阅",
+        "SaaS",
+        "双重许可",
+        "开放核心",
+        "捐赠"
+      ],
+      "aliases": [
+        "开源软件免费，企业怎么赚钱？",
+        "开源项目有哪些收入来源？",
+        "双重许可和开放核心有什么区别？"
+      ],
+      "file": "q020.md"
+    },
+    {
+      "id": "q021",
+      "number": 21,
+      "title": "开源商业模式的本质是什么",
+      "chapter": "开源商业模式",
+      "summary": "本问围绕“开源商业模式的本质是什么”展开，依次讨论一个简单的开源经济学模型；影响开源商业模式整体利润的因素；一种打击竞争对手的开源商业模式。",
+      "keywords": [
+        "开源商业模式",
+        "一个简单的开源经济学模型",
+        "影响开源商业模式整体利润的因素",
+        "一种打击竞争对手的开源商业模式"
+      ],
+      "aliases": [
+        "开源商业模式的本质是什么？",
+        "请介绍一个简单的开源经济学模型。",
+        "请介绍影响开源商业模式整体利润的因素。",
+        "请介绍一种打击竞争对手的开源商业模式。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        81,
+        84
+      ],
+      "pdf_pages": [
+        99,
+        102
+      ],
+      "url_path": "/questions/q021/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q021.md"
+    },
+    {
+      "id": "q022",
+      "number": 22,
+      "title": "服务与支持如何成为开源软件的收入来源",
+      "chapter": "开源商业模式",
+      "summary": "本问围绕“服务与支持如何成为开源软件的收入来源”展开，依次讨论开源软件服务与支持的具体形式；开源软件服务与支持的收入情况。",
+      "keywords": [
+        "开源商业模式",
+        "开源软件服务与支持的具体形式",
+        "开源软件服务与支持的收入情况"
+      ],
+      "aliases": [
+        "服务与支持如何成为开源软件的收入来源？",
+        "请介绍开源软件服务与支持的具体形式。",
+        "请介绍开源软件服务与支持的收入情况。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        84,
+        86
+      ],
+      "pdf_pages": [
+        102,
+        104
+      ],
+      "url_path": "/questions/q022/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q022.md"
+    },
+    {
+      "id": "q023",
+      "number": 23,
+      "title": "如何建立企业开源合规治理框架",
+      "chapter": "开源商业模式",
+      "summary": "本问围绕“如何建立企业开源合规治理框架”展开，依次讨论企业开源面临的合规性挑战；企业开源合规治理框架。",
+      "keywords": [
+        "开源商业模式",
+        "企业开源面临的合规性挑战",
+        "企业开源合规治理框架"
+      ],
+      "aliases": [
+        "如何建立企业开源合规治理框架？",
+        "请介绍企业开源面临的合规性挑战。",
+        "请介绍企业开源合规治理框架。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        86,
+        91
+      ],
+      "pdf_pages": [
+        104,
+        109
+      ],
+      "url_path": "/questions/q023/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q023.md"
+    },
+    {
+      "id": "q024",
+      "number": 24,
+      "title": "开源商业化有哪些成功的案例",
+      "chapter": "开源商业模式",
+      "summary": "本问围绕“开源商业化有哪些成功的案例”展开，依次讨论如何选择开源商业化的成功案例；红帽：开源商业化的范式革新；谷歌：开源生态的流量霸权；PingCAP：开源数据库的全球化突围等内容。",
+      "keywords": [
+        "开源商业模式",
+        "如何选择开源商业化的成功案例",
+        "红帽：开源商业化的范式革新",
+        "谷歌：开源生态的流量霸权",
+        "PingCAP：开源数据库的全球化突围",
+        "华为：从封闭到开放的生态转型"
+      ],
+      "aliases": [
+        "开源商业化有哪些成功的案例？",
+        "请介绍如何选择开源商业化的成功案例。",
+        "请介绍红帽：开源商业化的范式革新。",
+        "请介绍谷歌：开源生态的流量霸权。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        91,
+        96
+      ],
+      "pdf_pages": [
+        109,
+        114
+      ],
+      "url_path": "/questions/q024/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q024.md"
+    },
+    {
+      "id": "q025",
+      "number": 25,
+      "title": "如何评估开源商业模式的可行性",
+      "chapter": "开源商业模式",
+      "summary": "本问围绕“如何评估开源商业模式的可行性”展开，依次讨论市场需求：产品是否能够满足特定的市场需求，目标用户是否有足够的付费意愿；技术架构：发展阶段与成熟度；社区状况：活跃度与贡献者画像；竞争格局：竞争态势与团队能力等内容。",
+      "keywords": [
+        "开源商业模式",
+        "市场需求：产品是否能够满足特定的市场需求，目标用户是否有足够的付费意愿",
+        "技术架构：发展阶段与成熟度",
+        "社区状况：活跃度与贡献者画像",
+        "竞争格局：竞争态势与团队能力",
+        "知识产权：保护策略与合规风险"
+      ],
+      "aliases": [
+        "如何评估开源商业模式的可行性？",
+        "请介绍市场需求：产品是否能够满足特定的市场需求，目标用户是否有足够的付费意愿。",
+        "请介绍技术架构：发展阶段与成熟度。",
+        "请介绍社区状况：活跃度与贡献者画像。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        96,
+        100
+      ],
+      "pdf_pages": [
+        114,
+        118
+      ],
+      "url_path": "/questions/q025/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q025.md"
+    },
+    {
+      "id": "q026",
+      "number": 26,
+      "title": "企业应如何制定开源战略",
+      "chapter": "开源商业模式",
+      "summary": "本问围绕“企业应如何制定开源战略”展开，依次讨论评估经营状况；明确战略目标；搭建组织与制定政策；具体执行与度量。",
+      "keywords": [
+        "开源商业模式",
+        "评估经营状况",
+        "明确战略目标",
+        "搭建组织与制定政策",
+        "具体执行与度量"
+      ],
+      "aliases": [
+        "企业应如何制定开源战略？",
+        "请介绍评估经营状况。",
+        "请介绍明确战略目标。",
+        "请介绍搭建组织与制定政策。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        100,
+        102
+      ],
+      "pdf_pages": [
+        118,
+        120
+      ],
+      "url_path": "/questions/q026/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q026.md"
+    },
+    {
+      "id": "q027",
+      "number": 27,
+      "title": "企业在开源中的常见误区有哪些",
+      "chapter": "开源商业模式",
+      "summary": "本问围绕“企业在开源中的常见误区有哪些”展开，依次讨论从核心维度看企业开源误区；时间维度下的误区演进。",
+      "keywords": [
+        "开源商业模式",
+        "从核心维度看企业开源误区",
+        "时间维度下的误区演进"
+      ],
+      "aliases": [
+        "企业在开源中的常见误区有哪些？",
+        "请介绍从核心维度看企业开源误区。",
+        "请介绍时间维度下的误区演进。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        102,
+        104
+      ],
+      "pdf_pages": [
+        120,
+        122
+      ],
+      "url_path": "/questions/q027/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q027.md"
+    },
+    {
+      "id": "q028",
+      "number": 28,
+      "title": "如何在企业中推广开源文化",
+      "chapter": "开源商业模式",
+      "summary": "本问围绕“如何在企业中推广开源文化”展开，依次讨论为何要在企业中推广开源文化；推广路径与实践策略；关键挑战与破解之道。",
+      "keywords": [
+        "开源商业模式",
+        "为何要在企业中推广开源文化",
+        "推广路径与实践策略",
+        "关键挑战与破解之道"
+      ],
+      "aliases": [
+        "如何在企业中推广开源文化？",
+        "请介绍为何要在企业中推广开源文化。",
+        "请介绍推广路径与实践策略。",
+        "请介绍关键挑战与破解之道。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        104,
+        106
+      ],
+      "pdf_pages": [
+        122,
+        124
+      ],
+      "url_path": "/questions/q028/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q028.md"
+    },
+    {
+      "id": "q029",
+      "number": 29,
+      "title": "什么是内源，为何在企业中推广内源",
+      "chapter": "开源商业模式",
+      "summary": "本问围绕“什么是内源，为何在企业中推广内源”展开，依次讨论内源的定义与核心特征；企业推广内源的核心动因；如何解答那些对于内源的质疑。",
+      "keywords": [
+        "开源商业模式",
+        "内源的定义与核心特征",
+        "企业推广内源的核心动因",
+        "如何解答那些对于内源的质疑"
+      ],
+      "aliases": [
+        "什么是内源，为何在企业中推广内源？",
+        "请介绍内源的定义与核心特征。",
+        "请介绍企业推广内源的核心动因。",
+        "请介绍如何解答那些对于内源的质疑。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        106,
+        109
+      ],
+      "pdf_pages": [
+        124,
+        127
+      ],
+      "url_path": "/questions/q029/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q029.md"
+    },
+    {
+      "id": "q030",
+      "number": 30,
+      "title": "如何在企业中建立开源项目办公室",
+      "chapter": "开源商业模式",
+      "summary": "本问围绕“如何在企业中建立开源项目办公室”展开，依次讨论开源项目办公室的定义；开源项目办公室的价值；开源项目办公室的成长路径；开始前的准备工作等内容。",
+      "keywords": [
+        "开源商业模式",
+        "开源项目办公室的定义",
+        "开源项目办公室的价值",
+        "开源项目办公室的成长路径",
+        "开始前的准备工作",
+        "如何搭建开源项目办公室团队",
+        "建立开源项目办公室的常见挑战与解决方案"
+      ],
+      "aliases": [
+        "如何在企业中建立开源项目办公室？",
+        "请介绍开源项目办公室的定义。",
+        "请介绍开源项目办公室的价值。",
+        "请介绍开源项目办公室的成长路径。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        109,
+        114
+      ],
+      "pdf_pages": [
+        127,
+        132
+      ],
+      "url_path": "/questions/q030/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q030.md"
+    },
+    {
+      "id": "q031",
+      "number": 31,
+      "title": "如何从开源社区招募人才",
+      "chapter": "开源商业模式",
+      "summary": "本问围绕“如何从开源社区招募人才”展开，依次讨论对开源人才的渴求程度与原因；战略定位：从短期挖人到长期共建；如何精准识别开源人才。",
+      "keywords": [
+        "开源商业模式",
+        "对开源人才的渴求程度与原因",
+        "战略定位：从短期挖人到长期共建",
+        "如何精准识别开源人才"
+      ],
+      "aliases": [
+        "如何从开源社区招募人才？",
+        "请介绍对开源人才的渴求程度与原因。",
+        "请介绍战略定位：从短期挖人到长期共建。",
+        "请介绍如何精准识别开源人才。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        114,
+        117
+      ],
+      "pdf_pages": [
+        132,
+        135
+      ],
+      "url_path": "/questions/q031/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q031.md"
+    },
+    {
+      "id": "q032",
+      "number": 32,
+      "title": "如何通过开源提升企业的技术品牌",
+      "chapter": "开源商业模式",
+      "summary": "本问围绕“如何通过开源提升企业的技术品牌”展开，依次讨论技术品牌建设的4 个阶段；核心实施策略；效果评估指标；针对中小企业的建议等内容。",
+      "keywords": [
+        "开源商业模式",
+        "技术品牌建设的4 个阶段",
+        "核心实施策略",
+        "效果评估指标",
+        "针对中小企业的建议",
+        "典型案例参考"
+      ],
+      "aliases": [
+        "如何通过开源提升企业的技术品牌？",
+        "请介绍技术品牌建设的4 个阶段。",
+        "请介绍核心实施策略。",
+        "请介绍效果评估指标。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        117,
+        121
+      ],
+      "pdf_pages": [
+        135,
+        139
+      ],
+      "url_path": "/questions/q032/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q032.md"
+    },
+    {
+      "id": "q033",
+      "number": 33,
+      "title": "开源社区的结构与运作是怎样的",
+      "chapter": "开源社区",
+      "summary": "本问围绕“开源社区的结构与运作是怎样的”展开，依次讨论社区的基本成员；社区成员的来源；维护者与核心开发者的工作；其他非技术性工作等内容。",
+      "keywords": [
+        "开源社区",
+        "社区的基本成员",
+        "社区成员的来源",
+        "维护者与核心开发者的工作",
+        "其他非技术性工作",
+        "社区的组织架构与决策机制"
+      ],
+      "aliases": [
+        "开源社区的结构与运作是怎样的？",
+        "请介绍社区的基本成员。",
+        "请介绍社区成员的来源。",
+        "请介绍维护者与核心开发者的工作。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        122,
+        124
+      ],
+      "pdf_pages": [
+        140,
+        142
+      ],
+      "url_path": "/questions/q033/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q033.md"
+    },
+    {
+      "id": "q034",
+      "number": 34,
+      "title": "开源社区如何吸引和留住贡献者",
+      "chapter": "开源社区",
+      "summary": "本问围绕“开源社区如何吸引和留住贡献者”展开，依次讨论吸引贡献者的策略；留住贡献者的策略；社区治理和工具支持；未来挑战和特征。",
+      "keywords": [
+        "开源社区",
+        "吸引贡献者的策略",
+        "留住贡献者的策略",
+        "社区治理和工具支持",
+        "未来挑战和特征"
+      ],
+      "aliases": [
+        "开源社区如何吸引和留住贡献者？",
+        "请介绍吸引贡献者的策略。",
+        "请介绍留住贡献者的策略。",
+        "请介绍社区治理和工具支持。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        124,
+        127
+      ],
+      "pdf_pages": [
+        142,
+        145
+      ],
+      "url_path": "/questions/q034/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q034.md"
+    },
+    {
+      "id": "q035",
+      "number": 35,
+      "title": "如何开始为一个开源项目做贡献",
+      "chapter": "开源社区",
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        127,
+        131
+      ],
+      "pdf_pages": [
+        145,
+        149
+      ],
+      "url_path": "/questions/q035/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "summary": "本问从参与开源的意义出发，介绍代码、文档、设计、测试与社区支持等贡献形式，以及所需技能、项目选择方法、首次贡献流程和新手资源。",
+      "keywords": [
+        "贡献",
+        "新手",
+        "文档",
+        "测试",
+        "Git",
+        "Pull Request",
+        "不会编程"
+      ],
+      "aliases": [
+        "不会写代码也能参与开源吗？",
+        "如何找到适合新手的项目？",
+        "第一次提交贡献要经过哪些步骤？"
+      ],
+      "file": "q035.md"
+    },
+    {
+      "id": "q036",
+      "number": 36,
+      "title": "从贡献者到维护者的成长路径是什么",
+      "chapter": "开源社区",
+      "summary": "本问围绕“从贡献者到维护者的成长路径是什么”展开，依次讨论成长的典型阶段；需要掌握的核心能力；如何获得晋升与建立信任；加速成长的实用策略等内容。",
+      "keywords": [
+        "开源社区",
+        "成长的典型阶段",
+        "需要掌握的核心能力",
+        "如何获得晋升与建立信任",
+        "加速成长的实用策略",
+        "可能遇到的挑战及应对"
+      ],
+      "aliases": [
+        "从贡献者到维护者的成长路径是什么？",
+        "请介绍成长的典型阶段。",
+        "请介绍需要掌握的核心能力。",
+        "请介绍如何获得晋升与建立信任。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        131,
+        135
+      ],
+      "pdf_pages": [
+        149,
+        153
+      ],
+      "url_path": "/questions/q036/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q036.md"
+    },
+    {
+      "id": "q037",
+      "number": 37,
+      "title": "开源社区如何管理冲突和分歧",
+      "chapter": "开源社区",
+      "summary": "本问围绕“开源社区如何管理冲突和分歧”展开，依次讨论冲突管理的总体思路；建立清晰的行为准则和社区规范；构建结构化的沟通与决策流程；实施协作式冲突解决机制等内容。",
+      "keywords": [
+        "开源社区",
+        "冲突管理的总体思路",
+        "建立清晰的行为准则和社区规范",
+        "构建结构化的沟通与决策流程",
+        "实施协作式冲突解决机制",
+        "利用技术与工具辅助管理",
+        "坚持公开透明与持续反思"
+      ],
+      "aliases": [
+        "开源社区如何管理冲突和分歧？",
+        "请介绍冲突管理的总体思路。",
+        "请介绍建立清晰的行为准则和社区规范。",
+        "请介绍构建结构化的沟通与决策流程。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        135,
+        138
+      ],
+      "pdf_pages": [
+        153,
+        156
+      ],
+      "url_path": "/questions/q037/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q037.md"
+    },
+    {
+      "id": "q038",
+      "number": 38,
+      "title": "开源社区的包容性和多样性为何重要",
+      "chapter": "开源社区",
+      "summary": "本问围绕“开源社区的包容性和多样性为何重要”展开，依次讨论多元与包容的重要性；需要解决的现实问题；提升多元与包容性的改进方案。",
+      "keywords": [
+        "开源社区",
+        "多元与包容的重要性",
+        "需要解决的现实问题",
+        "提升多元与包容性的改进方案"
+      ],
+      "aliases": [
+        "开源社区的包容性和多样性为何重要？",
+        "请介绍多元与包容的重要性。",
+        "请介绍需要解决的现实问题。",
+        "请介绍提升多元与包容性的改进方案。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        138,
+        141
+      ],
+      "pdf_pages": [
+        156,
+        159
+      ],
+      "url_path": "/questions/q038/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q038.md"
+    },
+    {
+      "id": "q039",
+      "number": 39,
+      "title": "开源社区如何评估贡献者的价值",
+      "chapter": "开源社区",
+      "summary": "本问围绕“开源社区如何评估贡献者的价值”展开，依次讨论技术贡献；非技术性贡献开源社区的运转远远超出代码本身，非技术性贡献─曾经被忽视、难以量化甚；行为品质；商业价值等内容。",
+      "keywords": [
+        "开源社区",
+        "技术贡献",
+        "非技术性贡献开源社区的运转远远超出代码本身，非技术性贡献─曾经被忽视、难以量化甚",
+        "行为品质",
+        "商业价值",
+        "量化指标的尝试"
+      ],
+      "aliases": [
+        "开源社区如何评估贡献者的价值？",
+        "请介绍技术贡献。",
+        "请介绍非技术性贡献开源社区的运转远远超出代码本身，非技术性贡献─曾经被忽视、难以量化甚。",
+        "请介绍行为品质。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        142,
+        144
+      ],
+      "pdf_pages": [
+        160,
+        162
+      ],
+      "url_path": "/questions/q039/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q039.md"
+    },
+    {
+      "id": "q040",
+      "number": 40,
+      "title": "开源项目如何保障其长期可持续发展",
+      "chapter": "开源社区",
+      "summary": "本问围绕“开源项目如何保障其长期可持续发展”展开，依次讨论经济可持续性；治理可持续性；技术可持续性；项目可持续性与生态可持续性。",
+      "keywords": [
+        "开源社区",
+        "经济可持续性",
+        "治理可持续性",
+        "技术可持续性",
+        "项目可持续性与生态可持续性"
+      ],
+      "aliases": [
+        "开源项目如何保障其长期可持续发展？",
+        "请介绍经济可持续性。",
+        "请介绍治理可持续性。",
+        "请介绍技术可持续性。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        144,
+        147
+      ],
+      "pdf_pages": [
+        162,
+        165
+      ],
+      "url_path": "/questions/q040/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q040.md"
+    },
+    {
+      "id": "q041",
+      "number": 41,
+      "title": "开源社区里的规则与潜规则有哪些",
+      "chapter": "开源社区",
+      "summary": "本问围绕“开源社区里的规则与潜规则有哪些”展开，依次讨论社区、潜规则与规则；开源伦理的演进；社会之礼与社区之礼；开源社区里的“成文法”与自动化规则等内容。",
+      "keywords": [
+        "开源社区",
+        "社区、潜规则与规则",
+        "开源伦理的演进",
+        "社会之礼与社区之礼",
+        "开源社区里的“成文法”与自动化规则",
+        "社区中的潜规则",
+        "社区运营的艺术"
+      ],
+      "aliases": [
+        "开源社区里的规则与潜规则有哪些？",
+        "请介绍社区、潜规则与规则。",
+        "请介绍开源伦理的演进。",
+        "请介绍社会之礼与社区之礼。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        147,
+        154
+      ],
+      "pdf_pages": [
+        165,
+        172
+      ],
+      "url_path": "/questions/q041/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q041.md"
+    },
+    {
+      "id": "q042",
+      "number": 42,
+      "title": "开源如何驱动技术创新",
+      "chapter": "开源创新与未来",
+      "summary": "本问围绕“开源如何驱动技术创新”展开，依次讨论开源驱动创新的六大核心机制；开源驱动创新的实际成效；开源创新影响的量化评估；开源在中国语境下的机遇与挑战等内容。",
+      "keywords": [
+        "开源创新与未来",
+        "开源驱动创新的六大核心机制",
+        "开源驱动创新的实际成效",
+        "开源创新影响的量化评估",
+        "开源在中国语境下的机遇与挑战",
+        "开源创新面临的挑战与未来展望"
+      ],
+      "aliases": [
+        "开源如何驱动技术创新？",
+        "请介绍开源驱动创新的六大核心机制。",
+        "请介绍开源驱动创新的实际成效。",
+        "请介绍开源创新影响的量化评估。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        155,
+        159
+      ],
+      "pdf_pages": [
+        173,
+        177
+      ],
+      "url_path": "/questions/q042/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q042.md"
+    },
+    {
+      "id": "q043",
+      "number": 43,
+      "title": "开源如何影响 AI 领域的发展",
+      "chapter": "开源创新与未来",
+      "summary": "本问围绕“开源如何影响 AI 领域的发展”展开，依次讨论开源在AI 发展中扮演的角色；开源组件─奠定AI 创新与普及的基石；2025 年开源AI 项目的技术版图；开源AI 的伦理、安全与治理挑战。",
+      "keywords": [
+        "开源创新与未来",
+        "开源在AI 发展中扮演的角色",
+        "开源组件─奠定AI 创新与普及的基石",
+        "2025 年开源AI 项目的技术版图",
+        "开源AI 的伦理、安全与治理挑战"
+      ],
+      "aliases": [
+        "开源如何影响 AI 领域的发展？",
+        "请介绍开源在AI 发展中扮演的角色。",
+        "请介绍开源组件─奠定AI 创新与普及的基石。",
+        "请介绍2025 年开源AI 项目的技术版图。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        159,
+        163
+      ],
+      "pdf_pages": [
+        177,
+        181
+      ],
+      "url_path": "/questions/q043/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q043.md"
+    },
+    {
+      "id": "q044",
+      "number": 44,
+      "title": "开源如何影响区块链领域的发展",
+      "chapter": "开源创新与未来",
+      "summary": "本问围绕“开源如何影响区块链领域的发展”展开，依次讨论开源对区块链发展的六大核心影响；在开源推动下诞生的新技术及跨领域影响；区块链对开源社区的反向推动；挑战与趋势。",
+      "keywords": [
+        "开源创新与未来",
+        "开源对区块链发展的六大核心影响",
+        "在开源推动下诞生的新技术及跨领域影响",
+        "区块链对开源社区的反向推动",
+        "挑战与趋势"
+      ],
+      "aliases": [
+        "开源如何影响区块链领域的发展？",
+        "请介绍开源对区块链发展的六大核心影响。",
+        "请介绍在开源推动下诞生的新技术及跨领域影响。",
+        "请介绍区块链对开源社区的反向推动。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        163,
+        166
+      ],
+      "pdf_pages": [
+        181,
+        184
+      ],
+      "url_path": "/questions/q044/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q044.md"
+    },
+    {
+      "id": "q045",
+      "number": 45,
+      "title": "开源如何影响物联网领域的发展",
+      "chapter": "开源创新与未来",
+      "summary": "本问围绕“开源如何影响物联网领域的发展”展开，依次讨论降低成本与开发门槛；加速创新与迭代；推动互操作性与标准化；增强安全性与透明度等内容。",
+      "keywords": [
+        "开源创新与未来",
+        "降低成本与开发门槛",
+        "加速创新与迭代",
+        "推动互操作性与标准化",
+        "增强安全性与透明度",
+        "构建繁荣生态与商业模式",
+        "潜在的挑战、风险与展望"
+      ],
+      "aliases": [
+        "开源如何影响物联网领域的发展？",
+        "请介绍降低成本与开发门槛。",
+        "请介绍加速创新与迭代。",
+        "请介绍推动互操作性与标准化。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        166,
+        171
+      ],
+      "pdf_pages": [
+        184,
+        189
+      ],
+      "url_path": "/questions/q045/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q045.md"
+    },
+    {
+      "id": "q046",
+      "number": 46,
+      "title": "开源与知识产权之间，存在何种张力",
+      "chapter": "开源创新与未来",
+      "summary": "本问围绕“开源与知识产权之间，存在何种张力”展开，依次讨论知识产权遭遇的历次挑战；开源与知识产权的基本关系；不同的角色如何认识与应对这样的张力。",
+      "keywords": [
+        "开源创新与未来",
+        "知识产权遭遇的历次挑战",
+        "开源与知识产权的基本关系",
+        "不同的角色如何认识与应对这样的张力"
+      ],
+      "aliases": [
+        "开源与知识产权之间，存在何种张力？",
+        "请介绍知识产权遭遇的历次挑战。",
+        "请介绍开源与知识产权的基本关系。",
+        "请介绍不同的角色如何认识与应对这样的张力。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        171,
+        175
+      ],
+      "pdf_pages": [
+        189,
+        193
+      ],
+      "url_path": "/questions/q046/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q046.md"
+    },
+    {
+      "id": "q047",
+      "number": 47,
+      "title": "开源如何推动数字化转型",
+      "chapter": "开源创新与未来",
+      "summary": "本问围绕“开源如何推动数字化转型”展开，依次讨论什么是数字化转型；企业与政府的数字化转型；开源在数字化转型中的作用。",
+      "keywords": [
+        "开源创新与未来",
+        "什么是数字化转型",
+        "企业与政府的数字化转型",
+        "开源在数字化转型中的作用"
+      ],
+      "aliases": [
+        "开源如何推动数字化转型？",
+        "请介绍什么是数字化转型。",
+        "请介绍企业与政府的数字化转型。",
+        "请介绍开源在数字化转型中的作用。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        175,
+        178
+      ],
+      "pdf_pages": [
+        193,
+        196
+      ],
+      "url_path": "/questions/q047/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q047.md"
+    },
+    {
+      "id": "q048",
+      "number": 48,
+      "title": "开源如何推动高校科研创新",
+      "chapter": "开源创新与未来",
+      "summary": "本问围绕“开源如何推动高校科研创新”展开，依次讨论从开源到开放科学；在高校开展开源教育的价值；推动高校的科研成果开源；展望未来的高校科研与开放科学。",
+      "keywords": [
+        "开源创新与未来",
+        "从开源到开放科学",
+        "在高校开展开源教育的价值",
+        "推动高校的科研成果开源",
+        "展望未来的高校科研与开放科学"
+      ],
+      "aliases": [
+        "开源如何推动高校科研创新？",
+        "请介绍从开源到开放科学。",
+        "请介绍在高校开展开源教育的价值。",
+        "请介绍推动高校的科研成果开源。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        178,
+        181
+      ],
+      "pdf_pages": [
+        196,
+        199
+      ],
+      "url_path": "/questions/q048/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q048.md"
+    },
+    {
+      "id": "q049",
+      "number": 49,
+      "title": "开源社区的未来会怎么发展",
+      "chapter": "开源创新与未来",
+      "summary": "本问围绕“开源社区的未来会怎么发展”展开，依次讨论从代码社交到意图社交；项目的生命周期缩短，而社区的流动性加快；Agent 社区与AI 进化乐园；从开源到开放资源，再到开放智能。",
+      "keywords": [
+        "开源创新与未来",
+        "从代码社交到意图社交",
+        "项目的生命周期缩短，而社区的流动性加快",
+        "Agent 社区与AI 进化乐园",
+        "从开源到开放资源，再到开放智能"
+      ],
+      "aliases": [
+        "开源社区的未来会怎么发展？",
+        "请介绍从代码社交到意图社交。",
+        "请介绍项目的生命周期缩短，而社区的流动性加快。",
+        "请介绍Agent 社区与AI 进化乐园。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        181,
+        183
+      ],
+      "pdf_pages": [
+        199,
+        201
+      ],
+      "url_path": "/questions/q049/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q049.md"
+    },
+    {
+      "id": "q050",
+      "number": 50,
+      "title": "开源技术的未来趋势是什么",
+      "chapter": "开源创新与未来",
+      "summary": "本问围绕“开源技术的未来趋势是什么”展开，依次讨论被AI 全面增强的开源；AI 对未来基础设施提出的挑战；开源安全与治理成为“头等大事”。",
+      "keywords": [
+        "开源创新与未来",
+        "被AI 全面增强的开源",
+        "AI 对未来基础设施提出的挑战",
+        "开源安全与治理成为“头等大事”"
+      ],
+      "aliases": [
+        "开源技术的未来趋势是什么？",
+        "请介绍被AI 全面增强的开源。",
+        "请介绍AI 对未来基础设施提出的挑战。",
+        "请介绍开源安全与治理成为“头等大事”。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        183,
+        188
+      ],
+      "pdf_pages": [
+        201,
+        206
+      ],
+      "url_path": "/questions/q050/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q050.md"
+    },
+    {
+      "id": "q051",
+      "number": 51,
+      "title": "如何构建开放、包容、可持续的开源未来",
+      "chapter": "开源创新与未来",
+      "summary": "本问围绕“如何构建开放、包容、可持续的开源未来”展开，依次讨论开源生态正在遭遇哪些结构性挑战；在撕裂与不平衡中重建开源的“多元共治”；在不完美的世界里，坚持一种“更好的开放”。",
+      "keywords": [
+        "开源创新与未来",
+        "开源生态正在遭遇哪些结构性挑战",
+        "在撕裂与不平衡中重建开源的“多元共治”",
+        "在不完美的世界里，坚持一种“更好的开放”"
+      ],
+      "aliases": [
+        "如何构建开放、包容、可持续的开源未来？",
+        "请介绍开源生态正在遭遇哪些结构性挑战。",
+        "请介绍在撕裂与不平衡中重建开源的“多元共治”。",
+        "请介绍在不完美的世界里，坚持一种“更好的开放”。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        188,
+        193
+      ],
+      "pdf_pages": [
+        206,
+        211
+      ],
+      "url_path": "/questions/q051/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q051.md"
+    },
+    {
+      "id": "q052",
+      "number": 52,
+      "title": "开源创新的边界在哪里",
+      "chapter": "开源创新与未来",
+      "summary": "本问围绕“开源创新的边界在哪里”展开，依次讨论创新的多重场域与开源的真实位置；科研、企业与开源的分工与互补；开放协作与有组织创新的张力；国家视角下的开源创新：期待与纠偏等内容。",
+      "keywords": [
+        "开源创新与未来",
+        "创新的多重场域与开源的真实位置",
+        "科研、企业与开源的分工与互补",
+        "开放协作与有组织创新的张力",
+        "国家视角下的开源创新：期待与纠偏",
+        "开源创新的几条关键边界"
+      ],
+      "aliases": [
+        "开源创新的边界在哪里？",
+        "请介绍创新的多重场域与开源的真实位置。",
+        "请介绍科研、企业与开源的分工与互补。",
+        "请介绍开放协作与有组织创新的张力。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        194,
+        197
+      ],
+      "pdf_pages": [
+        212,
+        215
+      ],
+      "url_path": "/questions/q052/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q052.md"
+    },
+    {
+      "id": "q053",
+      "number": 53,
+      "title": "政府如何在开源项目中发挥积极作用",
+      "chapter": "政府与开源政策",
+      "summary": "本问围绕“政府如何在开源项目中发挥积极作用”展开，依次讨论政府介入开源的现实背景与必要性；政府在开源中的多重角色定位；支持开源项目的关键方法与工具；“积极”与“克制”的边界。",
+      "keywords": [
+        "政府与开源政策",
+        "政府介入开源的现实背景与必要性",
+        "政府在开源中的多重角色定位",
+        "支持开源项目的关键方法与工具",
+        "“积极”与“克制”的边界"
+      ],
+      "aliases": [
+        "政府如何在开源项目中发挥积极作用？",
+        "请介绍政府介入开源的现实背景与必要性。",
+        "请介绍政府在开源中的多重角色定位。",
+        "请介绍支持开源项目的关键方法与工具。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        198,
+        202
+      ],
+      "pdf_pages": [
+        216,
+        220
+      ],
+      "url_path": "/questions/q053/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q053.md"
+    },
+    {
+      "id": "q054",
+      "number": 54,
+      "title": "如何制定切实可行的开源公共政策",
+      "chapter": "政府与开源政策",
+      "summary": "本问围绕“如何制定切实可行的开源公共政策”展开，依次讨论开源公共政策的内涵与定位；制定开源公共政策的目标是什么；制定开源政策的基本原则；开源政策的主要工具箱等内容。",
+      "keywords": [
+        "政府与开源政策",
+        "开源公共政策的内涵与定位",
+        "制定开源公共政策的目标是什么",
+        "制定开源政策的基本原则",
+        "开源政策的主要工具箱",
+        "自上而下与自下而上的结合"
+      ],
+      "aliases": [
+        "如何制定切实可行的开源公共政策？",
+        "请介绍开源公共政策的内涵与定位。",
+        "请介绍制定开源公共政策的目标是什么。",
+        "请介绍制定开源政策的基本原则。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        202,
+        206
+      ],
+      "pdf_pages": [
+        220,
+        224
+      ],
+      "url_path": "/questions/q054/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q054.md"
+    },
+    {
+      "id": "q055",
+      "number": 55,
+      "title": "制定开源政策时需要避免哪些典型误区",
+      "chapter": "政府与开源政策",
+      "summary": "本问围绕“制定开源政策时需要避免哪些典型误区”展开，依次讨论基于错误“供应链想象”的开源断供恐慌；错误的科技创新想象：把开源当成万能的“突破秘籍”；把补贴当主角：试图通过“涓滴效应”扶植开源生态；用行政与KPI 逻辑替代社区逻辑等内容。",
+      "keywords": [
+        "政府与开源政策",
+        "基于错误“供应链想象”的开源断供恐慌",
+        "错误的科技创新想象：把开源当成万能的“突破秘籍”",
+        "把补贴当主角：试图通过“涓滴效应”扶植开源生态",
+        "用行政与KPI 逻辑替代社区逻辑",
+        "忽视“数字公共产品”本质与制度配套的狭隘视角"
+      ],
+      "aliases": [
+        "制定开源政策时需要避免哪些典型误区？",
+        "请介绍基于错误“供应链想象”的开源断供恐慌。",
+        "请介绍错误的科技创新想象：把开源当成万能的“突破秘籍”。",
+        "请介绍把补贴当主角：试图通过“涓滴效应”扶植开源生态。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        206,
+        210
+      ],
+      "pdf_pages": [
+        224,
+        228
+      ],
+      "url_path": "/questions/q055/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q055.md"
+    },
+    {
+      "id": "q056",
+      "number": 56,
+      "title": "政府与企业如何通过采购策略与 产业政策共建开源生态",
+      "chapter": "政府与开源政策",
+      "summary": "本问围绕“政府与企业如何通过采购策略与 产业政策共建开源生态”展开，依次讨论从“项目采购”到“生态共建”的政策逻辑；自主可控：关键在于保障开源供应链安全；产业政策：把开源当作“基础设施投资”，而不仅是“应用补贴”。",
+      "keywords": [
+        "政府与开源政策",
+        "从“项目采购”到“生态共建”的政策逻辑",
+        "自主可控：关键在于保障开源供应链安全",
+        "产业政策：把开源当作“基础设施投资”，而不仅是“应用补贴”"
+      ],
+      "aliases": [
+        "政府与企业如何通过采购策略与 产业政策共建开源生态？",
+        "请介绍从“项目采购”到“生态共建”的政策逻辑。",
+        "请介绍自主可控：关键在于保障开源供应链安全。",
+        "请介绍产业政策：把开源当作“基础设施投资”，而不仅是“应用补贴”。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        210,
+        212
+      ],
+      "pdf_pages": [
+        228,
+        230
+      ],
+      "url_path": "/questions/q056/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q056.md"
+    },
+    {
+      "id": "q057",
+      "number": 57,
+      "title": "政府与开源基金会如何通过中立平台 实现多方共治",
+      "chapter": "政府与开源政策",
+      "summary": "本问围绕“政府与开源基金会如何通过中立平台 实现多方共治”展开，依次讨论案例研究：欧盟与Eclipse 基金会的协作关系；案例研究：德国与主权科技基金的协作关系；中国特色的实践。",
+      "keywords": [
+        "政府与开源政策",
+        "案例研究：欧盟与Eclipse 基金会的协作关系",
+        "案例研究：德国与主权科技基金的协作关系",
+        "中国特色的实践"
+      ],
+      "aliases": [
+        "政府与开源基金会如何通过中立平台 实现多方共治？",
+        "请介绍案例研究：欧盟与Eclipse 基金会的协作关系。",
+        "请介绍案例研究：德国与主权科技基金的协作关系。",
+        "请介绍中国特色的实践。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        212,
+        216
+      ],
+      "pdf_pages": [
+        230,
+        234
+      ],
+      "url_path": "/questions/q057/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q057.md"
+    },
+    {
+      "id": "q058",
+      "number": 58,
+      "title": "政府与教育机构：如何以开源为抓手 培养人才与推动科研",
+      "chapter": "政府与开源政策",
+      "summary": "本问围绕“政府与教育机构：如何以开源为抓手 培养人才与推动科研”展开，依次讨论开源是新型人才培养方式；开源教育相关案例介绍；受到开源启发的开放科学；开放科学的相关案例介绍等内容。",
+      "keywords": [
+        "政府与开源政策",
+        "开源是新型人才培养方式",
+        "开源教育相关案例介绍",
+        "受到开源启发的开放科学",
+        "开放科学的相关案例介绍",
+        "政府如何推动基于开源的产学研协同"
+      ],
+      "aliases": [
+        "政府与教育机构：如何以开源为抓手 培养人才与推动科研？",
+        "请介绍开源是新型人才培养方式。",
+        "请介绍开源教育相关案例介绍。",
+        "请介绍受到开源启发的开放科学。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        216,
+        221
+      ],
+      "pdf_pages": [
+        234,
+        239
+      ],
+      "url_path": "/questions/q058/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q058.md"
+    },
+    {
+      "id": "q059",
+      "number": 59,
+      "title": "如何打造能够吸引全球开源人才的城市",
+      "chapter": "政府与开源政策",
+      "summary": "本问围绕“如何打造能够吸引全球开源人才的城市”展开，依次讨论人才的交叠性质：头部人才为何反复涌入少数头部城市；“吸引”的不同层次：从短期停留到长期定居的分层目标；人才最重视的机会与基础设施：开源导向人才的“核心需求画像”；城市人才战略：从愿景、定位到实施等内容。",
+      "keywords": [
+        "政府与开源政策",
+        "人才的交叠性质：头部人才为何反复涌入少数头部城市",
+        "“吸引”的不同层次：从短期停留到长期定居的分层目标",
+        "人才最重视的机会与基础设施：开源导向人才的“核心需求画像”",
+        "城市人才战略：从愿景、定位到实施",
+        "度量与保障体系：把战略固化为治理能力"
+      ],
+      "aliases": [
+        "如何打造能够吸引全球开源人才的城市？",
+        "请介绍人才的交叠性质：头部人才为何反复涌入少数头部城市。",
+        "请介绍“吸引”的不同层次：从短期停留到长期定居的分层目标。",
+        "请介绍人才最重视的机会与基础设施：开源导向人才的“核心需求画像”。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        221,
+        226
+      ],
+      "pdf_pages": [
+        239,
+        244
+      ],
+      "url_path": "/questions/q059/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q059.md"
+    },
+    {
+      "id": "q060",
+      "number": 60,
+      "title": "如何通过开源实现科技外交",
+      "chapter": "政府与开源政策",
+      "summary": "本问围绕“如何通过开源实现科技外交”展开，依次讨论科技外交；开源作为科技外交的可能性与特殊性；中国的科技外交策略；中国通过开源实现科技外交的区域策略。",
+      "keywords": [
+        "政府与开源政策",
+        "科技外交",
+        "开源作为科技外交的可能性与特殊性",
+        "中国的科技外交策略",
+        "中国通过开源实现科技外交的区域策略"
+      ],
+      "aliases": [
+        "如何通过开源实现科技外交？",
+        "请介绍科技外交。",
+        "请介绍开源作为科技外交的可能性与特殊性。",
+        "请介绍中国的科技外交策略。"
+      ],
+      "source_title": "解码开源：开源生态60问",
+      "source_author": "庄表伟",
+      "source_file": "70443-PDF-20260921.pdf",
+      "source_library_id": "libfile_99447eeb2bb881918365025199c91133",
+      "source_pages": [
+        226,
+        231
+      ],
+      "pdf_pages": [
+        244,
+        249
+      ],
+      "url_path": "/questions/q060/",
+      "version": 1,
+      "updated_at": "2026-09-25",
+      "status": "source_transcription_not_fact_checked",
+      "file": "q060.md"
+    }
+  ]
+}
